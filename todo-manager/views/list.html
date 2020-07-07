@@ -1,0 +1,83 @@
+<div class="row-fluid mt25">
+    <div class="mb30" 
+        ng-controller="NavCtrl"
+        ng-class="{ 'span4 offset4' : !todoLists.length,
+            'span3' : todoLists.length }">
+        <ul class="nav nav-tabs nav-stacked bgw">
+            <li ng-repeat="todoList in todoLists">
+                <a ng-bind="todoList.list"
+                    ng-click="setRoute(todoList.list)"></a>
+            </li>
+        </ul>
+        <form class="m0">
+            <input type="text"
+                class="input-block-level hide"
+                placeholder="List name"
+                ng-model="newListName"
+                ng-show="showInput">
+            <button class="addList btn btn-block"
+                ng-click="addNewList()">
+                Add a new list
+            </button>
+        </form>
+    </div>
+    <div class="span9" 
+        ng-controller="InputCtrl"
+        ng-show="todoLists.length">
+        <div class="cf">
+            <h1 class="dib"
+                ng-bind="activeList.list"></h1>
+            <i class="icon-remove p5 remove-list-button"
+                ng-click="removeActiveList()"></i>
+        </div>
+        <div class="bgw p20 rcorners mh30">
+            <form class="m0">
+                <span class="span8">
+                    <input type="text" 
+                        class="input-block-level" 
+                        placeholder="What do you need to get done today?"
+                        ng-model="newItem">
+                </span>
+                <span class="span4">
+                    <button ng-click="addNewItem()" 
+                        class="btn mb10 btn-block">Submit</button>
+                </span>
+            </form>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="row-fluid">
+                    <ul class="span12 main">
+                        <li class="mt25 p20 bgb rcorners"
+                            ng-repeat="todo in todoItems">
+                            <span>
+                                <div class="row-fluid">
+                                    <span class="span12 well well-small p4 m10"
+                                            ng-bind="todo.item"
+                                            ng-class="{ 'disable':todo.statusCode == 2,
+                                                        'inProgress': todo.statusCode == 1}"></span>
+                                </div>
+                                <div class="row-fluid">
+                                    <a class="btn phone-status-btn" 
+                                        ng-class="{'btn-primary':todo.statusCode == 0}"
+                                        ng-click="changeStatus(todo, 0)">Not Started</a>
+                                    <a class="btn phone-status-btn" 
+                                        ng-class="{'btn-primary':todo.statusCode == 1}"
+                                        ng-click="changeStatus(todo, 1)">In Progress</a>
+                                    <a class="btn phone-status-btn" 
+                                        ng-class="{'btn-primary':todo.statusCode == 2}"
+                                        ng-click="changeStatus(todo, 2)">Complete</a>
+                                    <a class="btn ml5 phone-float-right"
+                                        ng-class="{'hide':todo.statusCode != 2}"
+                                        ng-click="removeItem($index)">
+                                        <i class="icon-remove"></i>
+                                </a>
+                                </div>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
