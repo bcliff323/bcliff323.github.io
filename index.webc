@@ -3,33 +3,7 @@ layout: "layout.webc"
 ---
 <div class="page-container">
 	<div class="top">
-		<div class="header-container">
-			<header class="header">
-				<button id="menu-btn" class="menu-btn fa"></button>
-				<h1>Brian Clifford</h1>
-			</header>
-			<nav id="navigation-menu" role="navigation" class="navigation hidden">
-				<ul class="info">
-					<li>
-						<a class="navigation-item" href="#portfolio">Portfolio</a>
-					</li>
-					<li>
-						<a class="navigation-item" href="#technologies">Technologies</a>
-					</li>
-					<li>
-						<a class="navigation-item" href="#experience">Experience</a>
-					</li>
-				</ul>
-			</nav>
-			<ul class="examples">
-				<li>
-					<a class="fa fa-2x github" href="https://github.com/bcliff323"></a>
-				</li>
-				<li>
-					<a class="fa fa-2x linkedin" href="http://www.linkedin.com/in/briancliffordlinkedin"></a>
-				</li>
-			</ul>
-		</div>
+		<site-header></site-header>
 	</div>
 	<div class="main-container">
 		<p class="intro">
