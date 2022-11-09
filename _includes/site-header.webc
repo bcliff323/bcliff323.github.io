@@ -3,10 +3,16 @@
 		<h1>Brian Clifford</h1>
 		<ul>
 			<li>
-				<a class="fa fa-2x github" href="https://github.com/bcliff323"></a>
+				<icon-link href="https://github.com/bcliff323">
+					<github slot="icon"></github>
+					<span slot="label">Brian's github account</span>
+				</icon-link>
 			</li>
 			<li>
-				<a class="fa fa-2x linkedin" href="http://www.linkedin.com/in/briancliffordlinkedin"></a>
+				<icon-link href="http://www.linkedin.com/in/briancliffordlinkedin">
+					<linkedin slot="icon"></linkedin>
+					<span slot="label">Brian's linkedin account</span>
+				</icon-link>
 			</li>
 		</ul>
 	</header>

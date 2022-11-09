@@ -7,9 +7,6 @@ module.exports = function (eleventyConfig) {
 };
 
 const Image = require("@11ty/eleventy-img");
-//dist/images/recipe-as-a-service.png
-//dist/images/rei-siv.jpg
-//dist/images/vacation-vermont.png
 
 (async () => {
 	const urls = [

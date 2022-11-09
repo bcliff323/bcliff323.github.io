@@ -5,7 +5,7 @@ layout: "layout.webc"
 	<div class="top">
 		<site-header></site-header>
 	</div>
-	<div class="main-container">
+	<div class="main-container" role="main">
 		<intro></intro>
 		<portfolio></portfolio>
 		<technologies></technologies>

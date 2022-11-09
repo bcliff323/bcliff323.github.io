@@ -1,0 +1,5 @@
+<a :href="href" :aria="src">
+	<slot name="icon">
+	</slot>
+	<slot name="label"></slot>
+</a>
