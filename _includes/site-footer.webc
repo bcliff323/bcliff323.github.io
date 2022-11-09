@@ -1,0 +1,27 @@
+<div id="footer" class="footer">
+	<section>
+		<div class="footer-container">
+			<h1>Contact Info:</h1>
+			<ul>
+				<li>
+					<a href="https://github.com/bcliff323" class="fa github"></a>
+					<a href="https://github.com/bcliff323">
+						bcliff323
+					</a>
+				</li>
+				<li>
+					<a href="http://www.linkedin.com/in/briancliffordlinkedin" class="fa linkedin"></a>
+					<a href="http://www.linkedin.com/in/briancliffordlinkedin">
+						bcliffordlinkedin
+					</a>
+				</li>
+				<li>
+					<a href="mailto:bcliff323@gmail.com" class="fa email"></a>
+					<a href="mailto:bcliff323@gmail.com">
+						bcliff323@gmail.com
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+</div>

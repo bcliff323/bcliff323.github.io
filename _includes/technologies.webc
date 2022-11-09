@@ -1,0 +1,23 @@
+<section id="technologies" class="technologies">
+	<h1 class="section-header">Technologies</h1>
+	<ul class="technology-group">
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JavaScript</li>
+		<li>Node</li>
+		<li>React</li>
+		<li>Mithril</li>
+		<li>Angular</li>
+		<li>Sass</li>
+		<li>LESS</li>
+		<li>Git</li>
+		<li>PHP</li>
+		<li>Wordpress</li>
+		<li>Scala</li>
+		<li>Java</li>
+		<li>REST</li>
+		<li>Grunt</li>
+		<li>Gulp</li>
+		<li>Google Analytics</li>
+	</ul>
+</section>

@@ -1,0 +1,28 @@
+<section id="education" class="education">
+	<h1 class="section-header">Education</h1>
+	<article class="school">
+		<h2>University of Washington</h2>
+		<p>Object-Oriented Programming in Java, 2012</p>
+		<p>Application Programming in Java, 2013</p>
+		<p>
+			Professional Certificate in Flash Application Development,
+			2008-2009
+		</p>
+	</article>
+	<article class="school">
+		<h2>Saint Michael's College</h2>
+		<p>B.A. in Journalism and Mass Communications, 2000-2004</p>
+	</article>
+</section>
+<section id="interests" class="interests">
+	<h1 class="section-header">Interests</h1>
+	<ul class="technology-group">
+		<li>Hiking</li>
+		<li>Skiing</li>
+		<li>Backpacking</li>
+		<li>Music</li>
+		<li>Basketball</li>
+		<li>Homebrewing</li>
+	</ul>
+</section>
+</div>

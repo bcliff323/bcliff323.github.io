@@ -1,0 +1,78 @@
+<section id="experience" class="experience">
+	<h1 class="section-header">Experience</h1>
+	<article class="resume-item">
+		<h2>Meredith Content Licensing</h2>
+		<h3>November 2014-2018</h3>
+		<p>
+			Builds and maintains embedded JavaScript application serving
+			multiple clients. Enables streamlined delivery by designing
+			solutions that are easily configurable and themeable for new
+			clients. Assists in developing product road map. Serves as tech
+			lead for JavaScript development team using Scrum methodology.
+		</p>
+	</article>
+	<article class="resume-item">
+		<h2>MyWebGrocer</h2>
+		<h3>UI Engineer, October 2013-November 2014</h3>
+		<p>
+			Creates customer-facing ecommerce applications for national
+			grocery store chains using HTML, OO JavaScript, Knockout.js, and
+			Sass. Develops and maintains a REST-driven single-page application
+			built with modular, testable JavaScript. Collaborates with
+			cross-functional team members to deliver web software in an Agile
+			environment.
+		</p>
+	</article>
+	<article class="resume-item">
+		<h2>Recreational Equipment, Inc.</h2>
+		<h3>Front End Web Developer, July 2012-October 2013</h3>
+		<p>
+			Developed site components for REI.com in the Adobe CQ5 CMS using
+			JSP/JSTL, HTML, CSS, and OO JavaScript. Collaborated with Java
+			Developers, UX Designers, Interaction Designers, Online Editors,
+			Analysts, and Product Owners to deliver rich, authorable content
+			management tools using Agile methodology.
+		</p>
+	</article>
+	<article class="resume-item">
+		<h2>Recreational Equipment, Inc.</h2>
+		<h3>Technical Producer, July 2009-July 2012</h3>
+		<p>
+			Built and maintained front end web content for REI.com. Created
+			dynamic, interactive landing experiences, sale promotions, and was
+			responsible for functionality on the REI.com homepage. Used latest
+			client-side technologies and web API to implement rich customer
+			experiences. Leveraged XML and JSON from web services. Ensured
+			accurate analytics data was captured using REI's custom
+			implementation of Omniture Site Catalyst. Executed multi-variant
+			testing using Omniture Test & Target. Created engaging data-driven
+			applications for REI's Facebook fan page, as well as the co-op's
+			YouTube channel.
+		</p>
+	</article>
+	<article class="resume-item">
+		<h2>Tire Swing, LLC.</h2>
+		<h3>Co-Founder, June 2008-Present</h3>
+		<p>
+			Design and implement web solutions for small businesses and
+			organizations. Produce dynamic, interactive websites using
+			HTML/CSS, JavaScript, jQuery, Flash, and PHP/MYSQL. Implement CMS
+			solutions using Wordpress and Joomla. Create graphics using
+			Photoshop and Illustrator. Design and develop company website.
+			Procure projects and develop client base through networking,
+			marketing, and word of mouth.
+		</p>
+	</article>
+	<article class="resume-item">
+		<h2>All Star Directories</h2>
+		<h3>Content Migration Assistant, November 2008-February 2009</h3>
+		<p>
+			Assisted with data transfer of all website content using OpenCMS.
+			Assured accurate migration of written content, graphics, and
+			images. Worked with developers and content specialists to enhance
+			and maintain quality throughout migration. Helped with
+			organization and categorized elements for transition to new
+			content management system.
+		</p>
+	</article>
+</section>

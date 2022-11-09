@@ -1,0 +1,61 @@
+<section id="portfolio" class="portfolio">
+	<h1 class="section-header">Portfolio</h1>
+	<article class="portfolio-item">
+		<figure>
+			<img class="portfolio-image" src="img/1InI90d5kL-310.jpeg"
+				alt="a screenshot of website showing a search field, recipe category buttons, and a list of recipe photos and titles."
+				loading="lazy" />
+		</figure>
+		<div class="portfolio-details">
+			<h2 class="portfolio-title">Recipe as a Service</h2>
+			<p class="portfolio-description">
+				This embedded JavaScript application built using Mithril and
+				Foundation for the UI layer and the leverages the Scala Play
+				framework for REST services and client configuration. It is a
+				single page application complete with versioning, automated UI
+				tests, analytics and monitoring.
+			</p>
+			<p class="portfolio-specs">
+				<span>Built with: </span>
+				Mithril.js, Sass, Foundation, ES6, Scala Play, Elasticsearch
+			</p>
+		</div>
+	</article>
+	<article class="portfolio-item">
+		<figure>
+			<img class="portfolio-image" src="img/q-NrZV1AF--310.jpeg"
+				alt="photo of a website with a dialog showing a tent, and a list of REI store locations" loading="lazy" />
+		</figure>
+		<div class="portfolio-details">
+			<h2 class="portfolio-title">REI Store Inventory Visibility</h2>
+			<p class="portfolio-description">
+				This feature leverages geo-location, product data services, and
+				store inventory services to help the customer find a store with
+				the products they need. I was responsible for creating the ui,
+				binding all data, and building interactions using KnockoutJS.
+			</p>
+			<p class="portfolio-specs">
+				<span>Built with: </span>
+				HTML, CSS, JavaScript, AJAX, KnockoutJS, JSTL, Adobe CQ5
+			</p>
+		</div>
+	</article>
+	<article class="portfolio-item">
+		<figure>
+			<img class="portfolio-image" src="img/_NjOh1Td83-310.jpeg"
+				alt="A screenshot of a website showing a cabin by a lake with trees and grass" loading="lazy" />
+		</figure>
+		<div class="portfolio-details">
+			<h2 class="portfolio-title">Vacation Vermont</h2>
+			<p class="portfolio-description">
+				Vacation Vermont's site is a simple brochure-style page,
+				featuring rental property booking info, images, and a contact
+				form. I was responsible for all design and development.
+			</p>
+			<p class="portfolio-specs">
+				<span>Built with: </span>
+				HTML, CSS, JavaScript
+			</p>
+		</div>
+	</article>
+</section>
