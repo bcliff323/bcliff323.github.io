@@ -1,5 +1,5 @@
-import pluginWebc from '@11ty/eleventy-plugin-webc';
+const pluginWebc = require('@11ty/eleventy-plugin-webc');
 
-export default function (eleventyConfig) {
+module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginWebc);
 };

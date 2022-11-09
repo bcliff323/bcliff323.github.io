@@ -4,7 +4,8 @@
   "description": "Portfolio website for Brian W Clifford from Vermont",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "11ty": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
