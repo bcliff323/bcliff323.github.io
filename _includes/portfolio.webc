@@ -23,7 +23,8 @@
 				Foundation for the UI layer and the leverages the Scala Play
 				framework for REST services and client configuration. It is a
 				single page application complete with versioning, automated UI
-				tests, analytics and monitoring.
+				tests, analytics and monitoring. 
+				<a class="portfolio-link" href="https://us.keepitpumping.com/heart-healthy-recipes#/">Try it out</a>
 			</p>
 			<p class="portfolio-specs">
 				<span>Built with: </span>

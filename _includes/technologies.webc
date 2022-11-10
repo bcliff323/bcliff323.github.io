@@ -1,5 +1,5 @@
 <section id="technologies" class="technologies">
-	<h1 class="section-header">Technologies</h1>
+	<h2 class="section-header">Technologies</h2>
 	<ul class="technology-group">
 		<li>HTML</li>
 		<li>CSS</li>

@@ -1,7 +1,7 @@
 <section id="education" class="education">
 	<h2 class="section-header">Education</h2>
 	<article class="school">
-		<h2>University of Washington</h2>
+		<h3>University of Washington</h3>
 		<p>Object-Oriented Programming in Java, 2012</p>
 		<p>Application Programming in Java, 2013</p>
 		<p>
@@ -10,7 +10,7 @@
 		</p>
 	</article>
 	<article class="school">
-		<h2>Saint Michael's College</h2>
+		<h3>Saint Michael's College</h3>
 		<p>B.A. in Journalism and Mass Communications, 2000-2004</p>
 	</article>
 </section>

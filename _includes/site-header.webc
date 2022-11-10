@@ -2,6 +2,7 @@
 	.header {
 		display: flex;
 		margin-top: 1rem;
+		align-items: center;
 	}
 
 	.bc-icon {
@@ -10,11 +11,11 @@
 		border-radius: 3px;
 		background-color: #13021a;
 		padding: .75rem .3rem .2rem .75rem;
-		align-self: start;
 	}
 
 	.site-title {
 		margin: 0 0 0 .75rem;
+		font-size: 1.75rem;
 	}
 
 	.header-social {
@@ -29,11 +30,21 @@
 	}
 
 	.navigation-items {
-		display: flex;
+		border-top: 1px dashed #ddd594;
+		border-bottom: 1px dashed #ddd594;
+		padding-top: .75rem;
+	}
+
+	.navigation-items:after {
+		content: "";
+		display: block;
+		clear: both;
 	}
 
 	.navigation-item {
 		margin-right: 1rem;
+		float: left;
+		margin-bottom: 1rem;
 	}
 </style>
 <div class="header-container">
