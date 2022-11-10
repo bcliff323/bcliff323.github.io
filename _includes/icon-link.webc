@@ -1,4 +1,4 @@
-<a :href="href" :aria="src">
+<a :href="href" :aria-label="arialabel">
 	<slot name="icon">
 	</slot>
 	<slot name="label"></slot>

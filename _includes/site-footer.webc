@@ -4,22 +4,23 @@
 			<h1>Contact Info:</h1>
 			<ul>
 				<li>
-					<a href="https://github.com/bcliff323" class="fa github"></a>
-					<a href="https://github.com/bcliff323">
-						bcliff323
-					</a>
+					<icon-link href="https://github.com/bcliff323" arialabel="Connect with Brian on github">
+						<github slot="icon"></github>
+						<span slot="label">bcliff323</span>
+					</icon-link>
 				</li>
 				<li>
-					<a href="http://www.linkedin.com/in/briancliffordlinkedin" class="fa linkedin"></a>
-					<a href="http://www.linkedin.com/in/briancliffordlinkedin">
-						bcliffordlinkedin
-					</a>
+					<icon-link href="http://www.linkedin.com/in/briancliffordlinkedin"
+						arialabel="Connect with Brian on linked in">
+						<linkedin slot="icon"></linkedin>
+						<span slot="label">bcliffordlinkedin</span>
+					</icon-link>
 				</li>
 				<li>
-					<a href="mailto:bcliff323@gmail.com" class="fa email"></a>
-					<a href="mailto:bcliff323@gmail.com">
-						bcliff323@gmail.com
-					</a>
+					<icon-link href="mailto:bcliff323@gmail.com" arialabel="Send Brian an email">
+						<mail slot="icon"></mail>
+						<span slot="label">bcliff323@gmail.com</span>
+					</icon-link>
 				</li>
 			</ul>
 		</div>
