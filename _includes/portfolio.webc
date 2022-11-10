@@ -4,8 +4,40 @@
 		background-color: #aeb5f4;
 		border-radius: 4px;
 	}
+
+	@media (min-width: 35rem) {
+		.portfolio-item {
+			display: flex;
+			align-items: center;
+			margin-bottom: 1.25rem;
+			font-size: .8rem;
+		}
+
+		.portfolio-title {
+			margin-top: 0;
+		}
+
+		.portfolio-image {
+			max-width: 15rem;
+		}
+
+		.portfolio-details {
+			margin-left: 1rem;
+		}
+	}
+
+	@media (min-width: 42rem) {
+		.portfolio-item {
+			font-size: 1rem;
+		}
+	}
+
 	.portfolio-image {
 		border-radius: 4px;
+	}
+
+	.portfolio-specs {
+		font-size: .75rem;
 	}
 </style>
 <section id="portfolio" class="portfolio">
@@ -18,18 +50,18 @@
 		</figure>
 		<div class="portfolio-details">
 			<h3 class="portfolio-title">Recipe as a Service</h2>
-			<p class="portfolio-description">
-				This embedded JavaScript application built using Mithril and
-				Foundation for the UI layer and the leverages the Scala Play
-				framework for REST services and client configuration. It is a
-				single page application complete with versioning, automated UI
-				tests, analytics and monitoring. 
-				<a class="portfolio-link" href="https://us.keepitpumping.com/heart-healthy-recipes#/">Try it out</a>
-			</p>
-			<p class="portfolio-specs">
-				<span>Built with: </span>
-				Mithril.js, Sass, Foundation, ES6, Scala Play, Elasticsearch
-			</p>
+				<p class="portfolio-description">
+					This embedded JavaScript application built using Mithril and
+					Foundation for the UI layer and the leverages the Scala Play
+					framework for REST services and client configuration. It is a
+					single page application complete with versioning, automated UI
+					tests, analytics and monitoring.
+					<a class="portfolio-link" href="https://us.keepitpumping.com/heart-healthy-recipes#/">Try it out</a>
+				</p>
+				<p class="portfolio-specs">
+					<span>Built with: </span>
+					Mithril.js, Sass, Foundation, ES6, Scala Play, Elasticsearch
+				</p>
 		</div>
 	</article>
 	<article class="portfolio-item">
@@ -39,16 +71,16 @@
 		</figure>
 		<div class="portfolio-details">
 			<h3 class="portfolio-title">REI Store Inventory Visibility</h2>
-			<p class="portfolio-description">
-				This feature leverages geo-location, product data services, and
-				store inventory services to help the customer find a store with
-				the products they need. I was responsible for creating the ui,
-				binding all data, and building interactions using KnockoutJS.
-			</p>
-			<p class="portfolio-specs">
-				<span>Built with: </span>
-				HTML, CSS, JavaScript, AJAX, KnockoutJS, JSTL, Adobe CQ5
-			</p>
+				<p class="portfolio-description">
+					This feature leverages geo-location, product data services, and
+					store inventory services to help the customer find a store with
+					the products they need. I was responsible for creating the ui,
+					binding all data, and building interactions using KnockoutJS.
+				</p>
+				<p class="portfolio-specs">
+					<span>Built with: </span>
+					HTML, CSS, JavaScript, AJAX, KnockoutJS, JSTL, Adobe CQ5
+				</p>
 		</div>
 	</article>
 	<article class="portfolio-item">
@@ -58,15 +90,15 @@
 		</figure>
 		<div class="portfolio-details">
 			<h3 class="portfolio-title">Vacation Vermont</h2>
-			<p class="portfolio-description">
-				Vacation Vermont's site is a simple brochure-style page,
-				featuring rental property booking info, images, and a contact
-				form. I was responsible for all design and development.
-			</p>
-			<p class="portfolio-specs">
-				<span>Built with: </span>
-				HTML, CSS, JavaScript
-			</p>
+				<p class="portfolio-description">
+					Vacation Vermont's site is a simple brochure-style page,
+					featuring rental property booking info, images, and a contact
+					form. I was responsible for all design and development.
+				</p>
+				<p class="portfolio-specs">
+					<span>Built with: </span>
+					HTML, CSS, JavaScript
+				</p>
 		</div>
 	</article>
 </section>

@@ -63,6 +63,12 @@ layout: "layout.webc"
 	img {
 		width: 100%;
 	}
+
+	@media (min-width: 35rem) {
+		img {
+			width: auto;
+		}
+	}
 </style>
 <div class="page-container">
 	<div class="top">

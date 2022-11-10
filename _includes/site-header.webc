@@ -35,6 +35,10 @@
 		padding-top: .75rem;
 	}
 
+	.navigation-items:hover {
+		border-color: #a1dd94;
+	}
+
 	.navigation-items:after {
 		content: "";
 		display: block;
