@@ -1,7 +1,46 @@
+<style>
+	.header {
+		display: flex;
+		margin-top: 1rem;
+	}
+
+	.bc-icon {
+		font-size: 1rem;
+		border: 1px solid #e5dbe6;
+		border-radius: 3px;
+		background-color: #13021a;
+		padding: .75rem .3rem .2rem .75rem;
+		align-self: start;
+	}
+
+	.site-title {
+		margin: 0 0 0 .75rem;
+	}
+
+	.header-social {
+		display: flex;
+		margin: 0;
+		padding: 0;
+		font-size: 2rem;
+	}
+
+	.header-social li {
+		margin-left: .75rem;
+	}
+
+	.navigation-items {
+		display: flex;
+	}
+
+	.navigation-item {
+		margin-right: 1rem;
+	}
+</style>
 <div class="header-container">
 	<header class="header">
-		<h1>Brian Clifford</h1>
-		<ul>
+		<span aria-hidden="true" class="bc-icon">bc</span>
+		<h1 class="site-title">Brian Clifford</h1>
+		<ul class="header-social">
 			<li>
 				<icon-link href="https://github.com/bcliff323" arialabel="Brian's github account">
 					<github slot="icon"></github>
@@ -15,7 +54,7 @@
 		</ul>
 	</header>
 	<nav id="navigation-menu" role="navigation" class="navigation hidden">
-		<ul class="info">
+		<ul class="navigation-items">
 			<li>
 				<a class="navigation-item" href="#portfolio">Portfolio</a>
 			</li>

@@ -1,5 +1,5 @@
 <section id="education" class="education">
-	<h1 class="section-header">Education</h1>
+	<h2 class="section-header">Education</h2>
 	<article class="school">
 		<h2>University of Washington</h2>
 		<p>Object-Oriented Programming in Java, 2012</p>
@@ -15,7 +15,7 @@
 	</article>
 </section>
 <section id="interests" class="interests">
-	<h1 class="section-header">Interests</h1>
+	<h2 class="section-header">Interests</h2>
 	<ul class="technology-group">
 		<li>Hiking</li>
 		<li>Skiing</li>

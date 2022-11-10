@@ -1,8 +1,8 @@
 <section id="experience" class="experience">
-	<h1 class="section-header">Experience</h1>
+	<h2 class="section-header">Experience</h2>
 	<article class="resume-item">
-		<h2>Meredith Content Licensing</h2>
-		<h3>November 2014-2018</h3>
+		<h3>Meredith Content Licensing</h3>
+		<p>November 2014-2018</p>
 		<p>
 			Builds and maintains embedded JavaScript application serving
 			multiple clients. Enables streamlined delivery by designing
@@ -12,8 +12,8 @@
 		</p>
 	</article>
 	<article class="resume-item">
-		<h2>MyWebGrocer</h2>
-		<h3>UI Engineer, October 2013-November 2014</h3>
+		<h3>MyWebGrocer</h3>
+		<p>UI Engineer, October 2013-November 2014</p>
 		<p>
 			Creates customer-facing ecommerce applications for national
 			grocery store chains using HTML, OO JavaScript, Knockout.js, and
@@ -24,8 +24,8 @@
 		</p>
 	</article>
 	<article class="resume-item">
-		<h2>Recreational Equipment, Inc.</h2>
-		<h3>Front End Web Developer, July 2012-October 2013</h3>
+		<h3>Recreational Equipment, Inc.</h3>
+		<p>Front End Web Developer, July 2012-October 2013</p>
 		<p>
 			Developed site components for REI.com in the Adobe CQ5 CMS using
 			JSP/JSTL, HTML, CSS, and OO JavaScript. Collaborated with Java
@@ -35,8 +35,8 @@
 		</p>
 	</article>
 	<article class="resume-item">
-		<h2>Recreational Equipment, Inc.</h2>
-		<h3>Technical Producer, July 2009-July 2012</h3>
+		<h3>Recreational Equipment, Inc.</h3>
+		<p>Technical Producer, July 2009-July 2012</p>
 		<p>
 			Built and maintained front end web content for REI.com. Created
 			dynamic, interactive landing experiences, sale promotions, and was
@@ -51,8 +51,8 @@
 		</p>
 	</article>
 	<article class="resume-item">
-		<h2>Tire Swing, LLC.</h2>
-		<h3>Co-Founder, June 2008-Present</h3>
+		<h3>Tire Swing, LLC.</h3>
+		<p>Co-Founder, June 2008-Present</p>
 		<p>
 			Design and implement web solutions for small businesses and
 			organizations. Produce dynamic, interactive websites using
@@ -64,8 +64,8 @@
 		</p>
 	</article>
 	<article class="resume-item">
-		<h2>All Star Directories</h2>
-		<h3>Content Migration Assistant, November 2008-February 2009</h3>
+		<h3>All Star Directories</h3>
+		<p>Content Migration Assistant, November 2008-February 2009</p>
 		<p>
 			Assisted with data transfer of all website content using OpenCMS.
 			Assured accurate migration of written content, graphics, and

@@ -1,7 +1,7 @@
 <div id="footer" class="footer">
 	<section>
 		<div class="footer-container">
-			<h1>Contact Info:</h1>
+			<h2>Contact Info:</h2>
 			<ul>
 				<li>
 					<icon-link href="https://github.com/bcliff323" arialabel="Connect with Brian on github">

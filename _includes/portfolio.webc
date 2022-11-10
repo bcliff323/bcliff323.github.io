@@ -1,5 +1,15 @@
+<style>
+	.portfolio-item figure {
+		padding: .5rem .5rem .3rem .5rem;
+		background-color: #aeb5f4;
+		border-radius: 4px;
+	}
+	.portfolio-image {
+		border-radius: 4px;
+	}
+</style>
 <section id="portfolio" class="portfolio">
-	<h1 class="section-header">Portfolio</h1>
+	<h2 class="section-header">Portfolio</h2>
 	<article class="portfolio-item">
 		<figure>
 			<img class="portfolio-image" src="img/recipe-as-a-service.png"
@@ -7,7 +17,7 @@
 				loading="lazy" />
 		</figure>
 		<div class="portfolio-details">
-			<h2 class="portfolio-title">Recipe as a Service</h2>
+			<h3 class="portfolio-title">Recipe as a Service</h2>
 			<p class="portfolio-description">
 				This embedded JavaScript application built using Mithril and
 				Foundation for the UI layer and the leverages the Scala Play
@@ -27,7 +37,7 @@
 				alt="photo of a website with a dialog showing a tent, and a list of REI store locations" loading="lazy" />
 		</figure>
 		<div class="portfolio-details">
-			<h2 class="portfolio-title">REI Store Inventory Visibility</h2>
+			<h3 class="portfolio-title">REI Store Inventory Visibility</h2>
 			<p class="portfolio-description">
 				This feature leverages geo-location, product data services, and
 				store inventory services to help the customer find a store with
@@ -46,7 +56,7 @@
 				alt="A screenshot of a website showing a cabin by a lake with trees and grass" loading="lazy" />
 		</figure>
 		<div class="portfolio-details">
-			<h2 class="portfolio-title">Vacation Vermont</h2>
+			<h3 class="portfolio-title">Vacation Vermont</h2>
 			<p class="portfolio-description">
 				Vacation Vermont's site is a simple brochure-style page,
 				featuring rental property booking info, images, and a contact
