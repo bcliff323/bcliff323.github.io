@@ -49,7 +49,10 @@
 	}
 </style>
 <section id="portfolio" class="portfolio">
-	<h2 class="section-header">Portfolio</h2>
+	<div class="section-header">
+		<h2>Portfolio</h2>
+		<back-to-top />
+	</div>
 	<article class="portfolio-item">
 		<figure>
 			<img class="portfolio-image" src="img/todo.webp" alt="A screenshot of " loading="lazy" />

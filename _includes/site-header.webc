@@ -33,25 +33,22 @@
 		border-top: 1px dashed #ddd594;
 		border-bottom: 1px dashed #ddd594;
 		padding-top: .75rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: start;
 	}
 
 	.navigation-items:hover {
 		border-color: #a1dd94;
 	}
 
-	.navigation-items:after {
-		content: "";
-		display: block;
-		clear: both;
-	}
-
 	.navigation-item {
 		margin-right: 1rem;
-		float: left;
 		margin-bottom: 1rem;
+		display: block;
 	}
 </style>
-<div class="header-container">
+<div class="header-container" id="header-container">
 	<header class="header">
 		<span aria-hidden="true" class="bc-icon">bc</span>
 		<h1 class="site-title">Brian Clifford</h1>
@@ -68,7 +65,7 @@
 			</li>
 		</ul>
 	</header>
-	<nav id="navigation-menu" role="navigation" class="navigation hidden">
+	<nav id="navigation-menu" role="navigation" class="navigation">
 		<ul class="navigation-items">
 			<li>
 				<a class="navigation-item" href="#portfolio">Portfolio</a>
@@ -78,6 +75,15 @@
 			</li>
 			<li>
 				<a class="navigation-item" href="#experience">Experience</a>
+			</li>
+			<li>
+				<a class="navigation-item" href="#education">Education</a>
+			</li>
+			<li>
+				<a class="navigation-item" href="#interests">Interests</a>
+			</li>
+			<li>
+				<a class="navigation-item" href="#footer">Contact</a>
 			</li>
 		</ul>
 	</nav>
