@@ -1,3 +1,8 @@
+<style>
+	.intro {
+		margin-top: 0;
+	}
+</style>
 <p class="intro">
 	I am a front end web developer based in Essex Junction, VT. I move
 	pixels and data around while creating applications that deliver
