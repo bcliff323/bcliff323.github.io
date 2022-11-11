@@ -5,7 +5,7 @@
 
 	.resume-item-title {
 		margin-top: .25rem;
-		color: #aeb5f4;
+		color: var(--tertiary-color);
 		font-size: .9rem;
 	}
 </style>

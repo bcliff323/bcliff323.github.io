@@ -9,9 +9,9 @@
 
 	.bc-icon {
 		font-size: 1rem;
-		border: 1px solid #e5dbe6;
+		border: 1px solid var(--text-color);
 		border-radius: 3px;
-		background-color: #13021a;
+		background-color: var(--secondary-back-color);
 		padding: .75rem .3rem .2rem .75rem;
 		margin-right: .25rem;
 	}
@@ -38,22 +38,21 @@
 
 	.header-social a,
 	.header-social a:visited {
-
-		color: #a1dd94;
+		color: var(--secondary-action-color);
 	}
 
 	.header-social a:active,
 	.header-social a:focus {
-		color: #ddd594;
+		color: var(--primary-action-color);
 	}
 
 	.header-social a:hover {
-		color: #aeb5f4;
+		color: var(--tertiary-color);
 	}
 
 	.navigation-items {
-		border-top: 1px dashed #ddd594;
-		border-bottom: 1px dashed #ddd594;
+		border-top: 1px dashed var(--primary-action-color);
+		border-bottom: 1px dashed var(--primary-action-color);
 		padding-top: .75rem;
 		display: flex;
 		flex-wrap: wrap;
@@ -62,7 +61,7 @@
 	}
 
 	.navigation-items:hover {
-		border-color: #a1dd94;
+		border-color: var(--secondary-action-color);
 	}
 
 	.navigation-item {

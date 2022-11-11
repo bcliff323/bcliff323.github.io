@@ -5,7 +5,7 @@
 
 	.portfolio-item figure {
 		padding: .5rem .5rem .3rem .5rem;
-		background-color: #aeb5f4;
+		background-color: var(--tertiary-color);
 		border-radius: 4px;
 	}
 
@@ -41,11 +41,11 @@
 
 	.portfolio-specs {
 		font-size: .75rem;
-		color: #aeb5f4;
+		color: var(--tertiary-color);
 	}
 
 	.portfolio-specs span {
-		color: #bee6e8;
+		color: var(--secondary-color);
 	}
 </style>
 <section id="portfolio" class="portfolio">
