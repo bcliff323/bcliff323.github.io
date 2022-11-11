@@ -1,5 +1,5 @@
 <style>
-	@media (min-width: 45rem) {
+	@media (min-width: 32rem) {
 		.grid {
 			display: grid;
 			grid-template-columns: 1fr 1fr;

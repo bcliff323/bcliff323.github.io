@@ -9,12 +9,11 @@
 		border-radius: 4px;
 	}
 
-	@media (min-width: 32rem) {
+	@media (min-width: 45rem) {
 		.portfolio-item {
 			display: flex;
 			align-items: center;
 			margin-bottom: 1.25rem;
-			font-size: .8rem;
 		}
 
 		.portfolio-title {
@@ -32,7 +31,7 @@
 
 	@media (min-width: 42rem) {
 		.portfolio-item {
-			font-size: 1rem;
+			font-size: 1.25rem;
 		}
 	}
 
