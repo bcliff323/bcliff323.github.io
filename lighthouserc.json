@@ -13,6 +13,9 @@
 					"performance"
 				]
 			}
+		},
+		"upload": {
+			"target": "temporary-public-storage"
 		}
 	}
 }
