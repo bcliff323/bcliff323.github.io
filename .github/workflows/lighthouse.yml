@@ -21,7 +21,7 @@ jobs:
       - name: prepare application
         run: |
           npm install
-          npm build
+          npm run build
 
       - name: run Lighthouse CI
         run: |
