@@ -9,6 +9,12 @@
 		border-radius: 4px;
 	}
 
+	@media (prefers-color-scheme: light) {
+		.portfolio-item figure {
+			background-color: var(--secondary-back-color);
+		}
+	}
+
 	@media (min-width: 45rem) {
 		.portfolio-item {
 			display: flex;

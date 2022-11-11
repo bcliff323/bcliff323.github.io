@@ -16,7 +16,13 @@ layout: "layout.webc"
 	@media (prefers-color-scheme: light) {
 		:root {
 			--text-color: #24062d;
-			--back-color: white;
+			--back-color: rgb(245, 236, 250);
+			--secondary-back-color: white;
+			--primary-action-color: #2131b3;
+			--secondary-action-color: #601662;
+			--primary-color: #24062d;
+			--secondary-color: #601662;
+			--tertiary-color: #125252;
 		}
 	}
 
