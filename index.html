@@ -101,6 +101,12 @@
 		display: inline-block;
 	}
 
+	@media print {
+		.no-print {
+			display: none !important;
+		}
+	}
+
 
 	.footer {
 		margin-bottom: 10rem;
@@ -282,10 +288,10 @@
 <div class="header-container" id="header-container">
 	<header class="header">
 		<h1 class="site-title">
-			<span aria-hidden="true" class="bc-icon">bc</span>
+			<span aria-hidden="true" class="bc-icon no-print">bc</span>
 			Brian Clifford
 		</h1>
-		<ul class="header-social">
+		<ul class="header-social no-print">
 			<li>
 				<a href="https://github.com/bcliff323" aria-label="Brian's github account">
 	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -317,7 +323,7 @@
 			</li>
 		</ul>
 	</header>
-	<nav id="navigation-menu" role="navigation" class="navigation">
+	<nav id="navigation-menu" role="navigation" class="navigation no-print">
 		<ul class="navigation-items">
 			<li>
 				<a class="navigation-item" href="#portfolio">Portfolio</a>
@@ -354,7 +360,7 @@
 	<div class="section-header">
 		<h2>Portfolio</h2>
 		<back-to-top>
-<a href="#header-container" class="back-to-top" aria-label="Back to top">
+<a href="#header-container" class="back-to-top no-print" aria-label="Back to top">
 	Top
 	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 		<polyline points="17 11 12 6 7 11"></polyline>
@@ -371,7 +377,7 @@
 				This simple todo app is built with React allows users to create multiple todo lists,
 				add, remove, edit, sort and delete todo items. It features keyboard and screen reader
 				support, and includes automated testing for functionality.
-				<a href="https://storied-caramel-d5710b.netlify.app/">Try it out</a>
+				<a href="https://storied-caramel-d5710b.netlify.app/" class="portfolio-link no-print">Try it out</a>
 			</p>
 			<p class="portfolio-specs">
 				<span>Built with: </span>
@@ -391,7 +397,7 @@
 				framework for REST services and client configuration. It is a
 				single page application complete with versioning, automated UI
 				tests, analytics and monitoring.
-				<a class="portfolio-link" href="https://us.keepitpumping.com/heart-healthy-recipes#/">Try it out</a>
+				<a class="portfolio-link no-print" href="https://us.keepitpumping.com/heart-healthy-recipes#/">Try it out</a>
 			</p>
 			<p class="portfolio-specs">
 				<span>Built with: </span>
@@ -422,7 +428,7 @@
 	<div class="section-header">
 		<h2>Technologies</h2>
 		<back-to-top>
-<a href="#header-container" class="back-to-top" aria-label="Back to top">
+<a href="#header-container" class="back-to-top no-print" aria-label="Back to top">
 	Top
 	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 		<polyline points="17 11 12 6 7 11"></polyline>
@@ -457,7 +463,7 @@
 	<div class="section-header">
 		<h2>Experience</h2>
 		<back-to-top>
-<a href="#header-container" class="back-to-top" aria-label="Back to top">
+<a href="#header-container" class="back-to-top no-print" aria-label="Back to top">
 	Top
 	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 		<polyline points="17 11 12 6 7 11"></polyline>
@@ -546,7 +552,7 @@
 		<div class="section-header">
 			<h2>Education</h2>
 			<back-to-top>
-<a href="#header-container" class="back-to-top" aria-label="Back to top">
+<a href="#header-container" class="back-to-top no-print" aria-label="Back to top">
 	Top
 	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 		<polyline points="17 11 12 6 7 11"></polyline>
@@ -571,7 +577,7 @@
 		<div class="section-header">
 			<h2>Interests</h2>
 			<back-to-top>
-<a href="#header-container" class="back-to-top" aria-label="Back to top">
+<a href="#header-container" class="back-to-top no-print" aria-label="Back to top">
 	Top
 	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 		<polyline points="17 11 12 6 7 11"></polyline>
@@ -595,7 +601,7 @@
 			<div class="section-header">
 				<h2>Contact Info:</h2>
 				<back-to-top>
-<a href="#header-container" class="back-to-top" aria-label="Back to top">
+<a href="#header-container" class="back-to-top no-print" aria-label="Back to top">
 	Top
 	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 		<polyline points="17 11 12 6 7 11"></polyline>
