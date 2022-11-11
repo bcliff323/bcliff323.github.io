@@ -93,6 +93,12 @@ layout: "layout.webc"
 	.center-children>* {
 		display: inline-block;
 	}
+
+	@media print {
+		.no-print {
+			display: none !important;
+		}
+	}
 </style>
 <div class="page-container">
 	<div class="top">
