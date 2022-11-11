@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
 		components: "_includes/**/*.webc"
 	});
 	eleventyConfig.addPassthroughCopy("img");
+	eleventyConfig.addPassthroughCopy("content");
 	eleventyConfig.addPassthroughCopy("CNAME");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
 };

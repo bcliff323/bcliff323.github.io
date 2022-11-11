@@ -68,66 +68,31 @@
 		<h2>Portfolio</h2>
 		<back-to-top />
 	</div>
-	<article class="portfolio-item">
-		<figure>
-			<img class="portfolio-image" src="img/todo.webp"
-				alt="A screenshot of a web application showing a list titled groceries, a form input, and a list of interactive grocery items"
-				loading="lazy" height="500" width="500" />
-		</figure>
-		<div class="portfolio-details">
-			<h3 class="portfolio-title">Todo List Manager</h3>
-			<p class="portfolio-description">
-				This simple todo app is built with React allows users to create multiple todo lists,
-				add, remove, edit, sort and delete todo items. It features keyboard and screen reader
-				support, and includes automated testing for functionality.
-			</p>
-			<a href="https://storied-caramel-d5710b.netlify.app/" class="no-print">Try it out</a>
-			<p class="portfolio-specs">
-				<span>Built with: </span>
-				React, TypeScript, Jest, Tailwind, Netlify
-			</p>
-		</div>
-	</article>
-	<article class="portfolio-item">
-		<figure>
-			<img class="portfolio-image" src="img/raas.webp"
-				alt="a screenshot of website showing a search field, recipe category buttons, and a list of recipe photos and titles."
-				loading="lazy" height="500" width="500" />
-		</figure>
-		<div class="portfolio-details">
-			<h3 class="portfolio-title">Recipe as a Service</h3>
-			<p class="portfolio-description">
-				This embedded JavaScript application built using Mithril and
-				Foundation for the UI layer and the leverages the Scala Play
-				framework for REST services and client configuration. It is a
-				single page application complete with versioning, automated UI
-				tests, analytics and monitoring.
-			</p>
-			<a class="no-print" href="https://us.keepitpumping.com/heart-healthy-recipes#/">Try it out</a>
-			<p class="portfolio-specs">
-				<span>Built with: </span>
-				Mithril.js, Sass, Foundation, ES6, Scala Play, Elasticsearch
-			</p>
-		</div>
-	</article>
-	<article class="portfolio-item">
-		<figure>
-			<img class="portfolio-image" src="img/rei-siv.webp"
-				alt="photo of a website with a dialog showing a tent, and a list of REI store locations" loading="lazy"
-				height="500" width="500" />
-		</figure>
-		<div class="portfolio-details">
-			<h3 class="portfolio-title">REI Store Inventory Visibility</h3>
-			<p class="portfolio-description">
-				This feature leveraged geo-location, product data services, and
-				store inventory services to help the customer find a store with
-				the products they need. I was responsible for creating the UI,
-				binding all data, and building interactions using KnockoutJS.
-			</p>
-			<p class="portfolio-specs">
-				<span>Built with: </span>
-				HTML, CSS, JavaScript, KnockoutJS, JSTL, Adobe CQ5
-			</p>
-		</div>
-	</article>
+	<script webc:type="render" webc:is="template">
+		function render() {
+			return this.collections.portfolio
+				.sort((a, b) => a.data.ordinal > b.data.ordinal ? 1 : -1)
+				.map(item => {
+					const { data } = item;
+					return `<article class="portfolio-item">
+							<figure>
+								<img class="portfolio-image" src="${data.imgSrc}"
+									alt="${data.alt}" loading="lazy"
+									height="500" width="500" />
+							</figure>
+							<div class="portfolio-details">
+								<h3 class="portfolio-title">${data.title}</h3>
+								<p class="portfolio-description">
+									${data.description}
+								</p>
+								${data.link ? `<a href="${data.link}">${data.linkLabel}</a>` : ''}
+								<p class="portfolio-specs">
+									<span>Built with: </span>
+									${data.tech.join(", ")}
+								</p>
+							</div>
+						</article>`;
+				}).join("");
+		}
+	</script>
 </section>
