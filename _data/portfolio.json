@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Todo List Manager",
-		"description": "This simple todo app is built with React allows users to create multiple todo lists, add, remove, edit, sort and delete todo items. It features keyboard and screen reader support, and includes automated testing for functionality",
+		"description": "This simple todo app is built with React and allows users to create multiple todo lists, as well as add, remove, edit, sort and delete todo items. It features keyboard and screen reader support, and includes automated testing for functionality.",
 		"link": "https://storied-caramel-d5710b.netlify.app/",
 		"linkLabel": "Try it out",
 		"imgSrc": "img/todo.webp",
@@ -16,11 +16,11 @@
 	},
 	{
 		"title": "Recipe as a Service",
-		"description": "This embedded JavaScript application built using Mithril and Foundation for the UI layer and the leverages the Scala Play framework for REST services and client configuration. It is a single page application complete with versioning, automated UI tests, analytics and monitoring.",
+		"description": "This embedded JavaScript application is built using Mithril and Foundation for the UI layer and leverages the Scala Play framework for REST services and client configuration. It is a single page application complete with versioning, automated UI tests, analytics and monitoring.",
 		"link": "https://us.keepitpumping.com/heart-healthy-recipes#/",
 		"linkLabel": "Try it out",
 		"imgSrc": "img/raas.webp",
-		"alt": "a screenshot of website showing a search field, recipe category buttons, and a list of recipe photos and titles",
+		"alt": "a screenshot of a website showing a search field, recipe category buttons, and a list of recipe photos and titles",
 		"tech": [
 			"Mithril.js",
 			"Sass",
@@ -31,7 +31,7 @@
 	},
 	{
 		"title": "REI Store Inventory Visibility",
-		"description": "This feature leveraged geo-location, product data services, and store inventory services to help the customer find a store with the products they need. I was responsible for creating the UI, binding all data, and building interactions using KnockoutJS.",
+		"description": "This feature leveraged geo-location, product data services, and store inventory services to help customers find stores with the products they need. I was responsible for creating the UI, binding all data, and building interactions using KnockoutJS.",
 		"link": null,
 		"linkLabel": null,
 		"imgSrc": "img/rei-siv.webp",
