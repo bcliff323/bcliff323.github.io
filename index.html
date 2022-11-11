@@ -13,6 +13,7 @@
 		color: white;
 		background-color: #24062d;
 		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		font-size: 1.25rem;
 	}
 
 	ul {
@@ -52,15 +53,22 @@
 
 	.page-container {
 		padding: .1rem 1rem;
-		max-width: 45rem;
+		max-width: 50rem;
 		margin: 0 auto;
 	}
 
 	h2 {
-		border-bottom: 1px dashed #ecbde9;
 		padding-bottom: .5rem;
+		margin: 0;
+	}
+
+	.section-header {
+		border-bottom: 1px dashed #ecbde9;
 		color: #ecbde9;
-		margin-top: 2rem;
+		margin-top: 3rem;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 1.25rem;
 	}
 
 	h3 {
@@ -71,7 +79,7 @@
 		width: 100%;
 	}
 
-	@media (min-width: 32rem) {
+	@media (min-width: 45rem) {
 		img {
 			width: auto;
 		}
@@ -94,6 +102,10 @@
 	}
 
 
+	.footer {
+		margin-bottom: 10rem;
+	}
+
 	.footer-link {
 		display: flex;
 		align-items: center;
@@ -105,7 +117,7 @@
 	}
 
 
-	@media (min-width: 45rem) {
+	@media (min-width: 32rem) {
 		.grid {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
@@ -135,12 +147,11 @@
 		border-radius: 4px;
 	}
 
-	@media (min-width: 32rem) {
+	@media (min-width: 45rem) {
 		.portfolio-item {
 			display: flex;
 			align-items: center;
 			margin-bottom: 1.25rem;
-			font-size: .8rem;
 		}
 
 		.portfolio-title {
@@ -158,7 +169,7 @@
 
 	@media (min-width: 42rem) {
 		.portfolio-item {
-			font-size: 1rem;
+			font-size: 1.25rem;
 		}
 	}
 
@@ -173,6 +184,15 @@
 
 	.portfolio-specs span {
 		color: #bee6e8;
+	}
+
+
+	.back-to-top {
+		font-size: 1rem;
+	}
+
+	.back-to-top svg {
+		width: 1rem;
 	}
 
 
@@ -210,22 +230,19 @@
 		border-top: 1px dashed #ddd594;
 		border-bottom: 1px dashed #ddd594;
 		padding-top: .75rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: start;
 	}
 
 	.navigation-items:hover {
 		border-color: #a1dd94;
 	}
 
-	.navigation-items:after {
-		content: "";
-		display: block;
-		clear: both;
-	}
-
 	.navigation-item {
 		margin-right: 1rem;
-		float: left;
 		margin-bottom: 1rem;
+		display: block;
 	}
 </style>
 </head>
@@ -234,7 +251,7 @@
 <div class="page-container">
 	<div class="top">
 		<site-header>
-<div class="header-container">
+<div class="header-container" id="header-container">
 	<header class="header">
 		<span aria-hidden="true" class="bc-icon">bc</span>
 		<h1 class="site-title">Brian Clifford</h1>
@@ -261,7 +278,7 @@
 			</li>
 		</ul>
 	</header>
-	<nav id="navigation-menu" role="navigation" class="navigation hidden">
+	<nav id="navigation-menu" role="navigation" class="navigation">
 		<ul class="navigation-items">
 			<li>
 				<a class="navigation-item" href="#portfolio">Portfolio</a>
@@ -271,6 +288,15 @@
 			</li>
 			<li>
 				<a class="navigation-item" href="#experience">Experience</a>
+			</li>
+			<li>
+				<a class="navigation-item" href="#education">Education</a>
+			</li>
+			<li>
+				<a class="navigation-item" href="#interests">Interests</a>
+			</li>
+			<li>
+				<a class="navigation-item" href="#footer">Contact</a>
 			</li>
 		</ul>
 	</nav>
@@ -285,7 +311,16 @@
 </p>
 		<portfolio>
 <section id="portfolio" class="portfolio">
-	<h2 class="section-header">Portfolio</h2>
+	<div class="section-header">
+		<h2>Portfolio</h2>
+		<back-to-top>
+<a href="#header-container" class="back-to-top" aria-label="Back to top">
+	Top
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+		<polyline points="17 11 12 6 7 11"></polyline>
+		<polyline points="17 18 12 13 7 18"></polyline>
+	</svg>
+</a></back-to-top></div>
 	<article class="portfolio-item">
 		<figure>
 			<img class="portfolio-image" src="img/todo.webp" alt="A screenshot of " loading="lazy">
@@ -344,7 +379,16 @@
 	</article>
 </section></portfolio>
 		<section id="technologies">
-	<h2>Technologies</h2>
+	<div class="section-header">
+		<h2>Technologies</h2>
+		<back-to-top>
+<a href="#header-container" class="back-to-top" aria-label="Back to top">
+	Top
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+		<polyline points="17 11 12 6 7 11"></polyline>
+		<polyline points="17 18 12 13 7 18"></polyline>
+	</svg>
+</a></back-to-top></div>
 	<ul class="center-children">
 		<li class="tag">HTML</li>
 		<li class="tag">CSS</li>
@@ -370,7 +414,16 @@
 </section>
 		<experience>
 <section id="experience" class="experience">
-	<h2 class="section-header">Experience</h2>
+	<div class="section-header">
+		<h2>Experience</h2>
+		<back-to-top>
+<a href="#header-container" class="back-to-top" aria-label="Back to top">
+	Top
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+		<polyline points="17 11 12 6 7 11"></polyline>
+		<polyline points="17 18 12 13 7 18"></polyline>
+	</svg>
+</a></back-to-top></div>
 	<article class="resume-item">
 		<h3 class="resume-item-company">EQUITAS Life Sciences</h3>
 		<p class="resume-item-title">Software Engineer, July 2018-June 2020</p>
@@ -450,7 +503,16 @@
 		<education>
 <div class="grid">
 	<section id="education" class="education">
-		<h2 class="section-header">Education</h2>
+		<div class="section-header">
+			<h2>Education</h2>
+			<back-to-top>
+<a href="#header-container" class="back-to-top" aria-label="Back to top">
+	Top
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+		<polyline points="17 11 12 6 7 11"></polyline>
+		<polyline points="17 18 12 13 7 18"></polyline>
+	</svg>
+</a></back-to-top></div>
 		<article class="school">
 			<h3>University of Washington</h3>
 			<p>Object-Oriented Programming in Java, 2012</p>
@@ -466,7 +528,16 @@
 		</article>
 	</section>
 	<section id="interests" class="interests">
-		<h2 class="section-header">Interests</h2>
+		<div class="section-header">
+			<h2>Interestes</h2>
+			<back-to-top>
+<a href="#header-container" class="back-to-top" aria-label="Back to top">
+	Top
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+		<polyline points="17 11 12 6 7 11"></polyline>
+		<polyline points="17 18 12 13 7 18"></polyline>
+	</svg>
+</a></back-to-top></div>
 		<ul class="center-children">
 			<li class="tag">Hiking</li>
 			<li class="tag">Skiing</li>
@@ -481,7 +552,16 @@
 <div id="footer" class="footer">
 	<section>
 		<div class="footer-container">
-			<h2>Contact Info:</h2>
+			<div class="section-header">
+				<h2>Contact Info:</h2>
+				<back-to-top>
+<a href="#header-container" class="back-to-top" aria-label="Back to top">
+	Top
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+		<polyline points="17 11 12 6 7 11"></polyline>
+		<polyline points="17 18 12 13 7 18"></polyline>
+	</svg>
+</a></back-to-top></div>
 			<ul>
 				<li>
 					<a href="https://github.com/bcliff323" aria-label="Connect with Brian on github" class="footer-link">
