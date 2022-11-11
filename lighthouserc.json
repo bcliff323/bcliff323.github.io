@@ -1,0 +1,18 @@
+{
+	"ci": {
+		"collect": {
+			"url": [
+				"http://localhost"
+			],
+			"staticDistDir": "_site",
+			"startServerCommand": "npm run watch:11ty",
+			"startServerReadyPattern": "[11ty] Server at http://localhost:8080/",
+			"settings": {
+				"onlyCategories": [
+					"accessibility",
+					"performance"
+				]
+			}
+		}
+	}
+}

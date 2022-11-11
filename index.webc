@@ -70,6 +70,7 @@ layout: "layout.webc"
 
 	img {
 		width: 100%;
+		height: auto;
 	}
 
 	@media (min-width: 45rem) {
