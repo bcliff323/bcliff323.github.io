@@ -32,7 +32,7 @@
 			<h2>Interests</h2>
 			<back-to-top />
 		</div>
-		<ul class="center-children">
+		<ul class="center-children tags">
 			<li class="tag">Hiking</li>
 			<li class="tag">Skiing</li>
 			<li class="tag">Backpacking</li>

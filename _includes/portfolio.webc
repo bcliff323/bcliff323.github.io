@@ -1,6 +1,13 @@
 <style>
 	.portfolio-item {
 		margin-bottom: 1.75rem;
+		margin-top: 2rem;
+		padding-bottom: 1.75rem;
+		border-bottom: 1px dashed var(--tertiary-color);
+	}
+
+	.portfolio :last-child {
+		border-bottom: none;
 	}
 
 	.portfolio-item figure {
@@ -41,6 +48,14 @@
 		}
 	}
 
+	.portfolio-title {
+		margin-bottom: 0;
+	}
+
+	.portfolio-description {
+		margin-top: .75rem;
+	}
+
 	.portfolio-image {
 		border-radius: 4px;
 	}
@@ -71,7 +86,7 @@
 				This simple todo app is built with React allows users to create multiple todo lists,
 				add, remove, edit, sort and delete todo items. It features keyboard and screen reader
 				support, and includes automated testing for functionality.
-				<a href="https://storied-caramel-d5710b.netlify.app/" class="portfolio-link no-print">Try it out</a>
+				<a href="https://storied-caramel-d5710b.netlify.app/" class="no-print">Try it out</a>
 			</p>
 			<p class="portfolio-specs">
 				<span>Built with: </span>
@@ -93,7 +108,7 @@
 				framework for REST services and client configuration. It is a
 				single page application complete with versioning, automated UI
 				tests, analytics and monitoring.
-				<a class="portfolio-link no-print" href="https://us.keepitpumping.com/heart-healthy-recipes#/">Try it out</a>
+				<a class="no-print" href="https://us.keepitpumping.com/heart-healthy-recipes#/">Try it out</a>
 			</p>
 			<p class="portfolio-specs">
 				<span>Built with: </span>

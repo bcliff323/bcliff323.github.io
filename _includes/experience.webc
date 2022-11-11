@@ -9,12 +9,12 @@
 		font-size: .9rem;
 	}
 </style>
-<section id="experience" class="experience">
+<section id="experience">
 	<div class="section-header">
 		<h2>Experience</h2>
 		<back-to-top />
 	</div>
-	<article class="resume-item">
+	<article>
 		<h3 class="resume-item-company">EQUITAS Life Sciences</h3>
 		<p class="resume-item-title">Software Engineer, July 2018-June 2020</p>
 		<p>
@@ -25,7 +25,7 @@
 			software development.
 		</p>
 	</article>
-	<article class="resume-item">
+	<article>
 		<h3 class="resume-item-company">Meredith Content Licensing</h3>
 		<p class="resume-item-title">Lead Front End Developer, November 2014-July 2018</p>
 		<p>
@@ -37,7 +37,7 @@
 			methodology.
 		</p>
 	</article>
-	<article class="resume-item">
+	<article>
 		<h3 class="resume-item-company">MyWebGrocer</h3>
 		<p class="resume-item-title">UI Engineer, October 2013-November 2014</p>
 		<p>
@@ -49,7 +49,7 @@
 			environment.
 		</p>
 	</article>
-	<article class="resume-item">
+	<article>
 		<h3 class="resume-item-company">Recreational Equipment, Inc.</h3>
 		<p class="resume-item-title">Front End Web Developer, July 2012-October 2013</p>
 		<p>
@@ -60,7 +60,7 @@
 			management tools using Agile methodology.
 		</p>
 	</article>
-	<article class="resume-item">
+	<article>
 		<h3 class="resume-item-company">Recreational Equipment, Inc.</h3>
 		<p class="resume-item-title">Technical Producer, July 2009-July 2012</p>
 		<p>
@@ -76,7 +76,7 @@
 			YouTube channel.
 		</p>
 	</article>
-	<article class="resume-item">
+	<article>
 		<h3 class="resume-item-company">Tire Swing, LLC.</h3>
 		<p class="resume-item-title">Co-Founder, June 2008-2018</p>
 		<p>

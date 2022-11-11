@@ -3,7 +3,7 @@
 		<h2>Technologies</h2>
 		<back-to-top />
 	</div>
-	<ul class="center-children">
+	<ul class="center-children tags">
 		<li class="tag">HTML</li>
 		<li class="tag">CSS</li>
 		<li class="tag">JavaScript</li>
