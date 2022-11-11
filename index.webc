@@ -136,9 +136,7 @@ layout: "layout.webc"
 	}
 </style>
 <div class="page-container">
-	<div class="top">
-		<site-header></site-header>
-	</div>
+	<site-header></site-header>
 	<div class="main-container" role="main">
 		<intro></intro>
 		<portfolio></portfolio>

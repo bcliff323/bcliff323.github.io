@@ -71,7 +71,7 @@
 		display: block;
 	}
 </style>
-<div class="header-container" id="header-container">
+<div id="header-container">
 	<header class="header">
 		<h1 class="site-title">
 			<span aria-hidden="true" class="bc-icon no-print">bc</span>
@@ -95,7 +95,7 @@
 			</li>
 		</ul>
 	</header>
-	<nav id="navigation-menu" role="navigation" class="navigation no-print">
+	<nav id="navigation-menu" role="navigation" class="no-print">
 		<ul class="navigation-items">
 			<li>
 				<a class="navigation-item" href="#portfolio">Portfolio</a>
