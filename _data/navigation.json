@@ -1,0 +1,26 @@
+[
+	{
+		"link": "#portfolio",
+		"label": "Portfolio"
+	},
+	{
+		"link": "#technologies",
+		"label": "Technologies"
+	},
+	{
+		"link": "#experience",
+		"label": "Experience"
+	},
+	{
+		"link": "#education",
+		"label": "Education"
+	},
+	{
+		"link": "#interests",
+		"label": "Interests"
+	},
+	{
+		"link": "#footer",
+		"label": "Contact"
+	}
+]

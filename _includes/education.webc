@@ -1,4 +1,9 @@
 <style>
+	.school p {
+		padding: 0;
+		margin: 1.25rem 0;
+	}
+
 	@media (min-width: 45rem) {
 		.grid {
 			display: grid;
@@ -13,19 +18,18 @@
 			<h2>Education</h2>
 			<back-to-top />
 		</div>
-		<article class="school">
-			<h3>University of Washington</h3>
-			<p>Object-Oriented Programming in Java, 2012</p>
-			<p>Application Programming in Java, 2013</p>
-			<p>
-				Professional Certificate in Flash Application Development,
-				2008-2009
-			</p>
-		</article>
-		<article class="school">
-			<h3>Saint Michael's College</h3>
-			<p>B.A. in Journalism and Mass Communications, 2000-2004</p>
-		</article>
+		<script webc:type="render" webc:is="template">
+			function render() {
+				return this.education.map(item => `
+					<article class="school">
+						<h3>${item.school}</h3>
+						${item.programs.map(program => `
+							<p>${program}</p>
+						`).join("")}
+					</article>
+				`).join("");
+			}
+		</script>
 	</section>
 	<section id="interests" class="interests">
 		<div class="section-header">
@@ -33,12 +37,13 @@
 			<back-to-top />
 		</div>
 		<ul class="center-children tags">
-			<li class="tag">Hiking</li>
-			<li class="tag">Skiing</li>
-			<li class="tag">Backpacking</li>
-			<li class="tag">Basketball</li>
-			<li class="tag">Community Organizing</li>
-			<li class="tag">Mutual Aid</li>
+			<script webc:type="render" webc:is="template">
+				function render() {
+					return this.interests.map(item => `
+						<li class="tag">${item}</li>
+					`).join("");
+				}
+			</script>
 		</ul>
 	</section>
 </div>

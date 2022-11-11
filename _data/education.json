@@ -1,0 +1,16 @@
+[
+	{
+		"school": "University of Washington",
+		"programs": [
+			"Object-Oriented Programming in Java, 2012",
+			"Application Programming in Java, 2013",
+			"Professional Certificate in Flash Application Development, 2008-2009"
+		]
+	},
+	{
+		"school": "Saint Michael's College",
+		"programs": [
+			"B.A. in Journalism and Mass Communications, 2000-2004"
+		]
+	}
+]

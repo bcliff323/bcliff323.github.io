@@ -14,79 +14,16 @@
 		<h2>Experience</h2>
 		<back-to-top />
 	</div>
-	<article>
-		<h3 class="resume-item-company">EQUITAS Life Sciences</h3>
-		<p class="resume-item-title">Software Engineer, July 2018-June 2020</p>
-		<p>
-			Produced interactive web-based software using React, Node Express, TypeScript,
-			Postgres and other technologies. Collaborated with engineering team to
-			create and evolve e-learning solutions, a sales presentation generator,
-			and a coaching mentorship application. Trained and guided interns new to
-			software development.
-		</p>
-	</article>
-	<article>
-		<h3 class="resume-item-company">Meredith Content Licensing</h3>
-		<p class="resume-item-title">Lead Front End Developer, November 2014-July 2018</p>
-		<p>
-			Built and maintained embedded JavaScript application which
-			delivers high quality food-related content. Enabled streamlined
-			delivery by designing solutions that are easily configurable and
-			themeable for new clients. Assisted in developing product road map.
-			Served as tech lead for JavaScript development team using Scrum
-			methodology.
-		</p>
-	</article>
-	<article>
-		<h3 class="resume-item-company">MyWebGrocer</h3>
-		<p class="resume-item-title">UI Engineer, October 2013-November 2014</p>
-		<p>
-			Created customer-facing ecommerce applications for national
-			grocery store chains using HTML, OO JavaScript, Knockout.js, and
-			Sass. Developed and maintained a REST-driven single-page application
-			built with modular, testable JavaScript. Collaborated with
-			cross-functional team members to deliver web software in an Agile
-			environment.
-		</p>
-	</article>
-	<article>
-		<h3 class="resume-item-company">Recreational Equipment, Inc.</h3>
-		<p class="resume-item-title">Front End Web Developer, July 2012-October 2013</p>
-		<p>
-			Developed site components for REI.com in the Adobe CQ5 CMS using
-			JSP/JSTL, HTML, CSS, and OO JavaScript. Collaborated with Java
-			Developers, UX Designers, Interaction Designers, Online Editors,
-			Analysts, and Product Owners to deliver rich, authorable content
-			management tools using Agile methodology.
-		</p>
-	</article>
-	<article>
-		<h3 class="resume-item-company">Recreational Equipment, Inc.</h3>
-		<p class="resume-item-title">Technical Producer, July 2009-July 2012</p>
-		<p>
-			Built and maintained front end web content for REI.com. Created
-			dynamic, interactive landing experiences, sale promotions, and was
-			responsible for functionality on the REI.com homepage. Used latest
-			client-side technologies and web API to implement rich customer
-			experiences. Leveraged XML and JSON from web services. Ensured
-			accurate analytics data was captured using REI's custom
-			implementation of Omniture Site Catalyst. Executed multi-variant
-			testing using Omniture Test & Target. Created engaging data-driven
-			applications for REI's Facebook fan page, as well as the co-op's
-			YouTube channel.
-		</p>
-	</article>
-	<article>
-		<h3 class="resume-item-company">Tire Swing, LLC.</h3>
-		<p class="resume-item-title">Co-Founder, June 2008-2018</p>
-		<p>
-			Designed and implemented web solutions for small businesses and
-			organizations. Produced dynamic, interactive websites using
-			HTML/CSS, JavaScript, jQuery, Flash, and PHP/MYSQL. Implemented CMS
-			solutions using Wordpress and Joomla. Created graphics using
-			Photoshop and Illustrator. Designed and developed company website.
-			Procured projects and developed client base through networking,
-			marketing, and word of mouth.
-		</p>
-	</article>
+	<script webc:type="render" webc:is="template">
+		function render() {
+			return this.experience.map(item => `
+				<article>
+					<h3 class="resume-item-company">${item.company}</h3>
+					<p class="resume-item-title">${item.title}</p>
+					<p>${item.description}
+					</p>
+				</article>
+			`).join("");
+		}
+	</script>
 </section>
