@@ -42,12 +42,6 @@
 		}
 	}
 
-	@media (min-width: 42rem) {
-		.portfolio-item {
-			font-size: 1.25rem;
-		}
-	}
-
 	.portfolio-title {
 		margin-bottom: 0;
 	}
