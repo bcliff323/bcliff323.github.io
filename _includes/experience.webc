@@ -1,21 +1,44 @@
+<style>
+	.resume-item-company {
+		margin-bottom: 0;
+	}
+
+	.resume-item-title {
+		margin-top: .25rem;
+		color: #aeb5f4;
+		font-size: .9rem;
+	}
+</style>
 <section id="experience" class="experience">
 	<h2 class="section-header">Experience</h2>
 	<article class="resume-item">
-		<h3>Meredith Content Licensing</h3>
-		<p>November 2014-2018</p>
+		<h3 class="resume-item-company">Equitas Life Sciences</h3>
+		<p class="resume-item-title">Software Engineer, July 2018-June 2020</p>
 		<p>
-			Builds and maintains embedded JavaScript application serving
-			multiple clients. Enables streamlined delivery by designing
-			solutions that are easily configurable and themeable for new
-			clients. Assists in developing product road map. Serves as tech
-			lead for JavaScript development team using Scrum methodology.
+			Produced interactive web-based software using React, Node Express, TypeScript,
+			Postgres and other technologies. Collaborated with engineering team to
+			create and evolve e-learning solutions, a sales presentation generator,
+			and a coaching mentorship application. Trained and guided interns new to
+			software development.
 		</p>
 	</article>
 	<article class="resume-item">
-		<h3>MyWebGrocer</h3>
-		<p>UI Engineer, October 2013-November 2014</p>
+		<h3 class="resume-item-company">Meredith Content Licensing</h3>
+		<p class="resume-item-title">Lead Front End Developer, November 2014-July 2018</p>
 		<p>
-			Creates customer-facing ecommerce applications for national
+			Built and maintained embedded JavaScript application which
+			delivers high quality food-related content. Enabled streamlined
+			delivery by designing solutions that are easily configurable and
+			themeable for new clients. Assisted in developing product road map.
+			Served as tech lead for JavaScript development team using Scrum
+			methodology.
+		</p>
+	</article>
+	<article class="resume-item">
+		<h3 class="resume-item-company">MyWebGrocer</h3>
+		<p class="resume-item-title">UI Engineer, October 2013-November 2014</p>
+		<p>
+			Created customer-facing ecommerce applications for national
 			grocery store chains using HTML, OO JavaScript, Knockout.js, and
 			Sass. Develops and maintains a REST-driven single-page application
 			built with modular, testable JavaScript. Collaborates with
@@ -24,8 +47,8 @@
 		</p>
 	</article>
 	<article class="resume-item">
-		<h3>Recreational Equipment, Inc.</h3>
-		<p>Front End Web Developer, July 2012-October 2013</p>
+		<h3 class="resume-item-company">Recreational Equipment, Inc.</h3>
+		<p class="resume-item-title">Front End Web Developer, July 2012-October 2013</p>
 		<p>
 			Developed site components for REI.com in the Adobe CQ5 CMS using
 			JSP/JSTL, HTML, CSS, and OO JavaScript. Collaborated with Java
@@ -35,8 +58,8 @@
 		</p>
 	</article>
 	<article class="resume-item">
-		<h3>Recreational Equipment, Inc.</h3>
-		<p>Technical Producer, July 2009-July 2012</p>
+		<h3 class="resume-item-company">Recreational Equipment, Inc.</h3>
+		<p class="resume-item-title">Technical Producer, July 2009-July 2012</p>
 		<p>
 			Built and maintained front end web content for REI.com. Created
 			dynamic, interactive landing experiences, sale promotions, and was
@@ -51,8 +74,8 @@
 		</p>
 	</article>
 	<article class="resume-item">
-		<h3>Tire Swing, LLC.</h3>
-		<p>Co-Founder, June 2008-Present</p>
+		<h3 class="resume-item-company">Tire Swing, LLC.</h3>
+		<p class="resume-item-title">Co-Founder, June 2008-2018</p>
 		<p>
 			Design and implement web solutions for small businesses and
 			organizations. Produce dynamic, interactive websites using
@@ -61,18 +84,6 @@
 			Photoshop and Illustrator. Design and develop company website.
 			Procure projects and develop client base through networking,
 			marketing, and word of mouth.
-		</p>
-	</article>
-	<article class="resume-item">
-		<h3>All Star Directories</h3>
-		<p>Content Migration Assistant, November 2008-February 2009</p>
-		<p>
-			Assisted with data transfer of all website content using OpenCMS.
-			Assured accurate migration of written content, graphics, and
-			images. Worked with developers and content specialists to enhance
-			and maintain quality throughout migration. Helped with
-			organization and categorized elements for transition to new
-			content management system.
 		</p>
 	</article>
 </section>

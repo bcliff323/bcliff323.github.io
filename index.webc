@@ -64,10 +64,26 @@ layout: "layout.webc"
 		width: 100%;
 	}
 
-	@media (min-width: 35rem) {
+	@media (min-width: 32rem) {
 		img {
 			width: auto;
 		}
+	}
+
+	.tag {
+		padding: .3rem 1rem;
+		border: 2px solid #aeb5f4;
+		border-radius: 4px;
+		color: white;
+		margin: .25rem .25rem;
+	}
+
+	.center-children {
+		text-align: left;
+	}
+
+	.center-children>* {
+		display: inline-block;
 	}
 </style>
 <div class="page-container">

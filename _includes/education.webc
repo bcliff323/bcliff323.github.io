@@ -1,28 +1,38 @@
-<section id="education" class="education">
-	<h2 class="section-header">Education</h2>
-	<article class="school">
-		<h3>University of Washington</h3>
-		<p>Object-Oriented Programming in Java, 2012</p>
-		<p>Application Programming in Java, 2013</p>
-		<p>
-			Professional Certificate in Flash Application Development,
-			2008-2009
-		</p>
-	</article>
-	<article class="school">
-		<h3>Saint Michael's College</h3>
-		<p>B.A. in Journalism and Mass Communications, 2000-2004</p>
-	</article>
-</section>
-<section id="interests" class="interests">
-	<h2 class="section-header">Interests</h2>
-	<ul class="technology-group">
-		<li>Hiking</li>
-		<li>Skiing</li>
-		<li>Backpacking</li>
-		<li>Music</li>
-		<li>Basketball</li>
-		<li>Homebrewing</li>
-	</ul>
-</section>
+<style>
+	@media (min-width: 45rem) {
+		.grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 2rem;
+		}
+	}
+</style>
+<div class="grid">
+	<section id="education" class="education">
+		<h2 class="section-header">Education</h2>
+		<article class="school">
+			<h3>University of Washington</h3>
+			<p>Object-Oriented Programming in Java, 2012</p>
+			<p>Application Programming in Java, 2013</p>
+			<p>
+				Professional Certificate in Flash Application Development,
+				2008-2009
+			</p>
+		</article>
+		<article class="school">
+			<h3>Saint Michael's College</h3>
+			<p>B.A. in Journalism and Mass Communications, 2000-2004</p>
+		</article>
+	</section>
+	<section id="interests" class="interests">
+		<h2 class="section-header">Interests</h2>
+		<ul class="center-children">
+			<li class="tag">Hiking</li>
+			<li class="tag">Skiing</li>
+			<li class="tag">Backpacking</li>
+			<li class="tag">Basketball</li>
+			<li class="tag">Community Organizing</li>
+			<li class="tag">Mutual Aid</li>
+		</ul>
+	</section>
 </div>

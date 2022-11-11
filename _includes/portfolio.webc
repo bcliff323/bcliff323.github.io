@@ -1,11 +1,15 @@
 <style>
+	.portfolio-item {
+		margin-bottom: 1.75rem;
+	}
+
 	.portfolio-item figure {
 		padding: .5rem .5rem .3rem .5rem;
 		background-color: #aeb5f4;
 		border-radius: 4px;
 	}
 
-	@media (min-width: 35rem) {
+	@media (min-width: 32rem) {
 		.portfolio-item {
 			display: flex;
 			align-items: center;
@@ -38,30 +42,53 @@
 
 	.portfolio-specs {
 		font-size: .75rem;
+		color: #aeb5f4;
+	}
+
+	.portfolio-specs span {
+		color: #bee6e8;
 	}
 </style>
 <section id="portfolio" class="portfolio">
 	<h2 class="section-header">Portfolio</h2>
 	<article class="portfolio-item">
 		<figure>
-			<img class="portfolio-image" src="img/recipe-as-a-service.png"
+			<img class="portfolio-image" src="img/todo.webp" alt="A screenshot of " loading="lazy" />
+		</figure>
+		<div class="portfolio-details">
+			<h3 class="portfolio-title">Todo List Manager</h3>
+			<p class="portfolio-description">
+				This simple todo app is built with React allows users to create multiple todo lists,
+				add, remove, edit, sort and delete todo items. It features keyboard and screen reader
+				support, and includes automated testing for functionality.
+				<a href="https://storied-caramel-d5710b.netlify.app/">Try it out</a>
+			</p>
+			<p class="portfolio-specs">
+				<span>Built with: </span>
+				React, TypeScript, Jest, Tailwind, Netlify
+			</p>
+		</div>
+	</article>
+	<article class="portfolio-item">
+		<figure>
+			<img class="portfolio-image" src="img/raas.webp"
 				alt="a screenshot of website showing a search field, recipe category buttons, and a list of recipe photos and titles."
 				loading="lazy" />
 		</figure>
 		<div class="portfolio-details">
-			<h3 class="portfolio-title">Recipe as a Service</h2>
-				<p class="portfolio-description">
-					This embedded JavaScript application built using Mithril and
-					Foundation for the UI layer and the leverages the Scala Play
-					framework for REST services and client configuration. It is a
-					single page application complete with versioning, automated UI
-					tests, analytics and monitoring.
-					<a class="portfolio-link" href="https://us.keepitpumping.com/heart-healthy-recipes#/">Try it out</a>
-				</p>
-				<p class="portfolio-specs">
-					<span>Built with: </span>
-					Mithril.js, Sass, Foundation, ES6, Scala Play, Elasticsearch
-				</p>
+			<h3 class="portfolio-title">Recipe as a Service</h3>
+			<p class="portfolio-description">
+				This embedded JavaScript application built using Mithril and
+				Foundation for the UI layer and the leverages the Scala Play
+				framework for REST services and client configuration. It is a
+				single page application complete with versioning, automated UI
+				tests, analytics and monitoring.
+				<a class="portfolio-link" href="https://us.keepitpumping.com/heart-healthy-recipes#/">Try it out</a>
+			</p>
+			<p class="portfolio-specs">
+				<span>Built with: </span>
+				Mithril.js, Sass, Foundation, ES6, Scala Play, Elasticsearch
+			</p>
 		</div>
 	</article>
 	<article class="portfolio-item">
@@ -70,35 +97,17 @@
 				alt="photo of a website with a dialog showing a tent, and a list of REI store locations" loading="lazy" />
 		</figure>
 		<div class="portfolio-details">
-			<h3 class="portfolio-title">REI Store Inventory Visibility</h2>
-				<p class="portfolio-description">
-					This feature leverages geo-location, product data services, and
-					store inventory services to help the customer find a store with
-					the products they need. I was responsible for creating the ui,
-					binding all data, and building interactions using KnockoutJS.
-				</p>
-				<p class="portfolio-specs">
-					<span>Built with: </span>
-					HTML, CSS, JavaScript, AJAX, KnockoutJS, JSTL, Adobe CQ5
-				</p>
-		</div>
-	</article>
-	<article class="portfolio-item">
-		<figure>
-			<img class="portfolio-image" src="img/vacation-vermont.png"
-				alt="A screenshot of a website showing a cabin by a lake with trees and grass" loading="lazy" />
-		</figure>
-		<div class="portfolio-details">
-			<h3 class="portfolio-title">Vacation Vermont</h2>
-				<p class="portfolio-description">
-					Vacation Vermont's site is a simple brochure-style page,
-					featuring rental property booking info, images, and a contact
-					form. I was responsible for all design and development.
-				</p>
-				<p class="portfolio-specs">
-					<span>Built with: </span>
-					HTML, CSS, JavaScript
-				</p>
+			<h3 class="portfolio-title">REI Store Inventory Visibility</h3>
+			<p class="portfolio-description">
+				This feature leveraged geo-location, product data services, and
+				store inventory services to help the customer find a store with
+				the products they need. I was responsible for creating the ui,
+				binding all data, and building interactions using KnockoutJS.
+			</p>
+			<p class="portfolio-specs">
+				<span>Built with: </span>
+				HTML, CSS, JavaScript, KnockoutJS, JSTL, Adobe CQ5
+			</p>
 		</div>
 	</article>
 </section>

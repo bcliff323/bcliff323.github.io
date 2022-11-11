@@ -1,23 +1,25 @@
-<section id="technologies" class="technologies">
-	<h2 class="section-header">Technologies</h2>
-	<ul class="technology-group">
-		<li>HTML</li>
-		<li>CSS</li>
-		<li>JavaScript</li>
-		<li>Node</li>
-		<li>React</li>
-		<li>Mithril</li>
-		<li>Angular</li>
-		<li>Sass</li>
-		<li>LESS</li>
-		<li>Git</li>
-		<li>PHP</li>
-		<li>Wordpress</li>
-		<li>Scala</li>
-		<li>Java</li>
-		<li>REST</li>
-		<li>Grunt</li>
-		<li>Gulp</li>
-		<li>Google Analytics</li>
+<section id="technologies">
+	<h2>Technologies</h2>
+	<ul class="center-children">
+		<li class="tag">HTML</li>
+		<li class="tag">CSS</li>
+		<li class="tag">JavaScript</li>
+		<li class="tag">TypeScript</li>
+		<li class="tag">React</li>
+		<li class="tag">Angular</li>
+		<li class="tag">Sass</li>
+		<li class="tag">LESS</li>
+		<li class="tag">Node</li>
+		<li class="tag">Express</li>
+		<li class="tag">PostgreSQL</li>
+		<li class="tag">Git</li>
+		<li class="tag">PHP</li>
+		<li class="tag">Wordpress</li>
+		<li class="tag">Scala</li>
+		<li class="tag">Java</li>
+		<li class="tag">REST</li>
+		<li class="tag">Mocha</li>
+		<li class="tag">Jest</li>
+		<li class="tag">Webdriver</li>
 	</ul>
 </section>
