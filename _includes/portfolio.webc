@@ -103,7 +103,7 @@
 			<p class="portfolio-description">
 				This feature leveraged geo-location, product data services, and
 				store inventory services to help the customer find a store with
-				the products they need. I was responsible for creating the ui,
+				the products they need. I was responsible for creating the UI,
 				binding all data, and building interactions using KnockoutJS.
 			</p>
 			<p class="portfolio-specs">
