@@ -9,30 +9,67 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Brian Clifford</title>
 	<style>
+	:root {
+		--text-color: white;
+		--back-color: #24062d;
+		--secondary-back-color: #13021a;
+		--primary-action-color: #ddd594;
+		--secondary-action-color: #a1dd94;
+		--primary-color: #ecbde9;
+		--secondary-color: #bee6e8;
+		--tertiary-color: #aeb5f4;
+	}
+
+	@media (prefers-color-scheme: light) {
+		:root {
+			--text-color: #24062d;
+			--back-color: rgb(245, 236, 250);
+			--secondary-back-color: white;
+			--primary-action-color: #2131b3;
+			--secondary-action-color: #601662;
+			--primary-color: #24062d;
+			--secondary-color: #601662;
+			--tertiary-color: #125252;
+		}
+	}
+
 	body {
-		color: white;
-		background-color: #24062d;
+		color: var(--text-color);
+		background-color: var(--back-color);
 		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 		font-size: 1.25rem;
 	}
 
-	ul {
-		list-style: none;
-		padding-left: 0;
-	}
-
 	a,
 	a:visited {
-		color: #ddd594;
+		color: var(--primary-action-color);
 	}
 
 	a:active,
 	a:focus {
-		color: #a1dd94;
+		color: var(--secondary-action-color);
 	}
 
 	a:hover {
-		color: #aeb5f4;
+		color: var(--tertiary-color);
+	}
+
+	h2 {
+		padding-bottom: .5rem;
+		margin: 0;
+		color: var(--primary-color);
+	}
+
+	h3 {
+		color: var(--secondary-color);
+	}
+
+	.tag {
+		padding: .3rem 1rem;
+		border: 2px solid var(--tertiary-color);
+		border-radius: 4px;
+		color: var(--text-color);
+		margin: .25rem .25rem;
 	}
 
 	html {
@@ -46,33 +83,28 @@
 		margin: -1rem 0 0;
 	}
 
-	figure {
-		margin: 0;
-		text-align: center;
-	}
-
 	.page-container {
 		padding: .1rem 1rem;
 		max-width: 50rem;
 		margin: 0 auto;
 	}
 
-	h2 {
-		padding-bottom: .5rem;
-		margin: 0;
-	}
-
 	.section-header {
-		border-bottom: 1px dashed #ecbde9;
-		color: #ecbde9;
+		border-bottom: 1px dashed var(--primary-color);
 		margin-top: 3rem;
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 1.25rem;
 	}
 
-	h3 {
-		color: #bee6e8;
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	figure {
+		margin: 0;
+		text-align: center;
 	}
 
 	img {
@@ -84,14 +116,6 @@
 		img {
 			width: auto;
 		}
-	}
-
-	.tag {
-		padding: .3rem 1rem;
-		border: 2px solid #aeb5f4;
-		border-radius: 4px;
-		color: white;
-		margin: .25rem .25rem;
 	}
 
 	.center-children {
@@ -139,7 +163,7 @@
 
 	.resume-item-title {
 		margin-top: .25rem;
-		color: #aeb5f4;
+		color: var(--tertiary-color);
 		font-size: .9rem;
 	}
 
@@ -150,8 +174,14 @@
 
 	.portfolio-item figure {
 		padding: .5rem .5rem .3rem .5rem;
-		background-color: #aeb5f4;
+		background-color: var(--tertiary-color);
 		border-radius: 4px;
+	}
+
+	@media (prefers-color-scheme: light) {
+		.portfolio-item figure {
+			background-color: var(--secondary-back-color);
+		}
 	}
 
 	@media (min-width: 45rem) {
@@ -186,11 +216,11 @@
 
 	.portfolio-specs {
 		font-size: .75rem;
-		color: #aeb5f4;
+		color: var(--tertiary-color);
 	}
 
 	.portfolio-specs span {
-		color: #bee6e8;
+		color: var(--secondary-color);
 	}
 
 
@@ -218,9 +248,9 @@
 
 	.bc-icon {
 		font-size: 1rem;
-		border: 1px solid #e5dbe6;
+		border: 1px solid var(--text-color);
 		border-radius: 3px;
-		background-color: #13021a;
+		background-color: var(--secondary-back-color);
 		padding: .75rem .3rem .2rem .75rem;
 		margin-right: .25rem;
 	}
@@ -247,22 +277,21 @@
 
 	.header-social a,
 	.header-social a:visited {
-
-		color: #a1dd94;
+		color: var(--secondary-action-color);
 	}
 
 	.header-social a:active,
 	.header-social a:focus {
-		color: #ddd594;
+		color: var(--primary-action-color);
 	}
 
 	.header-social a:hover {
-		color: #aeb5f4;
+		color: var(--tertiary-color);
 	}
 
 	.navigation-items {
-		border-top: 1px dashed #ddd594;
-		border-bottom: 1px dashed #ddd594;
+		border-top: 1px dashed var(--primary-action-color);
+		border-bottom: 1px dashed var(--primary-action-color);
 		padding-top: .75rem;
 		display: flex;
 		flex-wrap: wrap;
@@ -271,7 +300,7 @@
 	}
 
 	.navigation-items:hover {
-		border-color: #a1dd94;
+		border-color: var(--secondary-action-color);
 	}
 
 	.navigation-item {
