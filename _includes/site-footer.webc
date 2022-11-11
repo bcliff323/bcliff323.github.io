@@ -1,4 +1,8 @@
 <style>
+	.footer {
+		margin-bottom: 10rem;
+	}
+
 	.footer-link {
 		display: flex;
 		align-items: center;
@@ -12,7 +16,10 @@
 <div id="footer" class="footer">
 	<section>
 		<div class="footer-container">
-			<h2>Contact Info:</h2>
+			<div class="section-header">
+				<h2>Contact Info:</h2>
+				<back-to-top />
+			</div>
 			<ul>
 				<li>
 					<icon-link href="https://github.com/bcliff323" arialabel="Connect with Brian on github"

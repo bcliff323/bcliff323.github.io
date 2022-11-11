@@ -1,5 +1,8 @@
 <section id="technologies">
-	<h2>Technologies</h2>
+	<div class="section-header">
+		<h2>Technologies</h2>
+		<back-to-top />
+	</div>
 	<ul class="center-children">
 		<li class="tag">HTML</li>
 		<li class="tag">CSS</li>
