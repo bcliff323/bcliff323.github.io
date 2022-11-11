@@ -65,6 +65,10 @@ layout: "layout.webc"
 		margin: .25rem .25rem;
 	}
 
+	.tags :last-child {
+		padding-bottom: .3rem
+	}
+
 	html {
 		scroll-behavior: smooth;
 	}
@@ -105,6 +109,11 @@ layout: "layout.webc"
 		height: auto;
 	}
 
+	section :last-child {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
 	@media (min-width: 45rem) {
 		img {
 			width: auto;
@@ -117,6 +126,7 @@ layout: "layout.webc"
 
 	.center-children>* {
 		display: inline-block;
+		text-align: center;
 	}
 
 	@media print {

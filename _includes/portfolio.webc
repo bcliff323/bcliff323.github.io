@@ -1,6 +1,13 @@
 <style>
 	.portfolio-item {
 		margin-bottom: 1.75rem;
+		margin-top: 2rem;
+		padding-bottom: 1.75rem;
+		border-bottom: 1px dashed var(--tertiary-color);
+	}
+
+	.portfolio :last-child {
+		border-bottom: none;
 	}
 
 	.portfolio-item figure {
@@ -39,6 +46,14 @@
 		.portfolio-item {
 			font-size: 1.25rem;
 		}
+	}
+
+	.portfolio-title {
+		margin-bottom: 0;
+	}
+
+	.portfolio-description {
+		margin-top: .75rem;
 	}
 
 	.portfolio-image {
