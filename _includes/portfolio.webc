@@ -42,12 +42,6 @@
 		}
 	}
 
-	@media (min-width: 42rem) {
-		.portfolio-item {
-			font-size: 1.25rem;
-		}
-	}
-
 	.portfolio-title {
 		margin-bottom: 0;
 	}
@@ -86,8 +80,8 @@
 				This simple todo app is built with React allows users to create multiple todo lists,
 				add, remove, edit, sort and delete todo items. It features keyboard and screen reader
 				support, and includes automated testing for functionality.
-				<a href="https://storied-caramel-d5710b.netlify.app/" class="no-print">Try it out</a>
 			</p>
+			<a href="https://storied-caramel-d5710b.netlify.app/" class="no-print">Try it out</a>
 			<p class="portfolio-specs">
 				<span>Built with: </span>
 				React, TypeScript, Jest, Tailwind, Netlify
@@ -108,8 +102,8 @@
 				framework for REST services and client configuration. It is a
 				single page application complete with versioning, automated UI
 				tests, analytics and monitoring.
-				<a class="no-print" href="https://us.keepitpumping.com/heart-healthy-recipes#/">Try it out</a>
 			</p>
+			<a class="no-print" href="https://us.keepitpumping.com/heart-healthy-recipes#/">Try it out</a>
 			<p class="portfolio-specs">
 				<span>Built with: </span>
 				Mithril.js, Sass, Foundation, ES6, Scala Play, Elasticsearch

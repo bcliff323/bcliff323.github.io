@@ -7,6 +7,12 @@
 		flex-wrap: wrap;
 	}
 
+	@media (min-width: 45rem) {
+		.header {
+			margin-top: 4rem;
+		}
+	}
+
 	.bc-icon {
 		font-size: 1rem;
 		border: 1px solid var(--text-color);
