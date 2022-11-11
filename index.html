@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=500, initial-scale=1">
+	<meta name="description" content>
+	<meta name="author" content>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Brian Clifford</title>
+	<style>
+	body {
+		color: white;
+		background-color: #24062d;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	}
+
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	a,
+	a:visited {
+		color: #ddd594;
+	}
+
+	a:active,
+	a:focus {
+		color: #a1dd94;
+	}
+
+	a:hover {
+		color: #aeb5f4;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	:target:before {
+		content: "";
+		display: block;
+		height: 1rem;
+		margin: -1rem 0 0;
+	}
+
+	figure {
+		margin: 0;
+		text-align: center;
+	}
+
+	.page-container {
+		padding: .1rem 1rem;
+		max-width: 45rem;
+		margin: 0 auto;
+	}
+
+	h2 {
+		border-bottom: 1px dashed #ecbde9;
+		padding-bottom: .5rem;
+		color: #ecbde9;
+		margin-top: 2rem;
+	}
+
+	h3 {
+		color: #bee6e8;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	@media (min-width: 32rem) {
+		img {
+			width: auto;
+		}
+	}
+
+	.tag {
+		padding: .3rem 1rem;
+		border: 2px solid #aeb5f4;
+		border-radius: 4px;
+		color: white;
+		margin: .25rem .25rem;
+	}
+
+	.center-children {
+		text-align: left;
+	}
+
+	.center-children>* {
+		display: inline-block;
+	}
+
+
+	.footer-link {
+		display: flex;
+		align-items: center;
+		margin-bottom: .5rem;
+	}
+
+	.footer-link span {
+		margin-left: .5rem;
+	}
+
+
+	@media (min-width: 45rem) {
+		.grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 2rem;
+		}
+	}
+
+
+	.resume-item-company {
+		margin-bottom: 0;
+	}
+
+	.resume-item-title {
+		margin-top: .25rem;
+		color: #aeb5f4;
+		font-size: .9rem;
+	}
+
+
+	.portfolio-item {
+		margin-bottom: 1.75rem;
+	}
+
+	.portfolio-item figure {
+		padding: .5rem .5rem .3rem .5rem;
+		background-color: #aeb5f4;
+		border-radius: 4px;
+	}
+
+	@media (min-width: 32rem) {
+		.portfolio-item {
+			display: flex;
+			align-items: center;
+			margin-bottom: 1.25rem;
+			font-size: .8rem;
+		}
+
+		.portfolio-title {
+			margin-top: 0;
+		}
+
+		.portfolio-image {
+			max-width: 15rem;
+		}
+
+		.portfolio-details {
+			margin-left: 1rem;
+		}
+	}
+
+	@media (min-width: 42rem) {
+		.portfolio-item {
+			font-size: 1rem;
+		}
+	}
+
+	.portfolio-image {
+		border-radius: 4px;
+	}
+
+	.portfolio-specs {
+		font-size: .75rem;
+		color: #aeb5f4;
+	}
+
+	.portfolio-specs span {
+		color: #bee6e8;
+	}
+
+
+	.header {
+		display: flex;
+		margin-top: 1rem;
+		align-items: center;
+	}
+
+	.bc-icon {
+		font-size: 1rem;
+		border: 1px solid #e5dbe6;
+		border-radius: 3px;
+		background-color: #13021a;
+		padding: .75rem .3rem .2rem .75rem;
+	}
+
+	.site-title {
+		margin: 0 0 0 .75rem;
+		font-size: 1.75rem;
+	}
+
+	.header-social {
+		display: flex;
+		margin: 0;
+		padding: 0;
+		font-size: 2rem;
+	}
+
+	.header-social li {
+		margin-left: .75rem;
+	}
+
+	.navigation-items {
+		border-top: 1px dashed #ddd594;
+		border-bottom: 1px dashed #ddd594;
+		padding-top: .75rem;
+	}
+
+	.navigation-items:hover {
+		border-color: #a1dd94;
+	}
+
+	.navigation-items:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.navigation-item {
+		margin-right: 1rem;
+		float: left;
+		margin-bottom: 1rem;
+	}
+</style>
+</head>
+
+<body>
+<div class="page-container">
+	<div class="top">
+		<site-header>
+<div class="header-container">
+	<header class="header">
+		<span aria-hidden="true" class="bc-icon">bc</span>
+		<h1 class="site-title">Brian Clifford</h1>
+		<ul class="header-social">
+			<li>
+				<a href="https://github.com/bcliff323" aria-label="Brian's github account">
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+	</path>
+	<path d="M9 18c-4.51 2-5-2-7-2"></path>
+</svg>
+	
+</a>
+			</li>
+			<li>
+				<a href="http://www.linkedin.com/in/briancliffordlinkedin" aria-label="Brian's linkedin account">
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+	<rect x="2" y="9" width="4" height="12"></rect>
+	<circle cx="4" cy="4" r="2"></circle>
+</svg>
+	
+</a>
+			</li>
+		</ul>
+	</header>
+	<nav id="navigation-menu" role="navigation" class="navigation hidden">
+		<ul class="navigation-items">
+			<li>
+				<a class="navigation-item" href="#portfolio">Portfolio</a>
+			</li>
+			<li>
+				<a class="navigation-item" href="#technologies">Technologies</a>
+			</li>
+			<li>
+				<a class="navigation-item" href="#experience">Experience</a>
+			</li>
+		</ul>
+	</nav>
+</div></site-header>
+	</div>
+	<div class="main-container" role="main">
+		<p class="intro">
+	I am a front end web developer based in Essex Junction, VT. I move
+	pixels and data around while creating applications that deliver
+	engaging experiences. I specialize in HTML, CSS, and JavaScript, but am
+	happy traversing other technologies as helpful.
+</p>
+		<portfolio>
+<section id="portfolio" class="portfolio">
+	<h2 class="section-header">Portfolio</h2>
+	<article class="portfolio-item">
+		<figure>
+			<img class="portfolio-image" src="img/todo.webp" alt="A screenshot of " loading="lazy">
+		</figure>
+		<div class="portfolio-details">
+			<h3 class="portfolio-title">Todo List Manager</h3>
+			<p class="portfolio-description">
+				This simple todo app is built with React allows users to create multiple todo lists,
+				add, remove, edit, sort and delete todo items. It features keyboard and screen reader
+				support, and includes automated testing for functionality.
+				<a href="https://storied-caramel-d5710b.netlify.app/">Try it out</a>
+			</p>
+			<p class="portfolio-specs">
+				<span>Built with: </span>
+				React, TypeScript, Jest, Tailwind, Netlify
+			</p>
+		</div>
+	</article>
+	<article class="portfolio-item">
+		<figure>
+			<img class="portfolio-image" src="img/raas.webp" alt="a screenshot of website showing a search field, recipe category buttons, and a list of recipe photos and titles." loading="lazy">
+		</figure>
+		<div class="portfolio-details">
+			<h3 class="portfolio-title">Recipe as a Service</h3>
+			<p class="portfolio-description">
+				This embedded JavaScript application built using Mithril and
+				Foundation for the UI layer and the leverages the Scala Play
+				framework for REST services and client configuration. It is a
+				single page application complete with versioning, automated UI
+				tests, analytics and monitoring.
+				<a class="portfolio-link" href="https://us.keepitpumping.com/heart-healthy-recipes#/">Try it out</a>
+			</p>
+			<p class="portfolio-specs">
+				<span>Built with: </span>
+				Mithril.js, Sass, Foundation, ES6, Scala Play, Elasticsearch
+			</p>
+		</div>
+	</article>
+	<article class="portfolio-item">
+		<figure>
+			<img class="portfolio-image" src="img/rei-siv.jpg" alt="photo of a website with a dialog showing a tent, and a list of REI store locations" loading="lazy">
+		</figure>
+		<div class="portfolio-details">
+			<h3 class="portfolio-title">REI Store Inventory Visibility</h3>
+			<p class="portfolio-description">
+				This feature leveraged geo-location, product data services, and
+				store inventory services to help the customer find a store with
+				the products they need. I was responsible for creating the ui,
+				binding all data, and building interactions using KnockoutJS.
+			</p>
+			<p class="portfolio-specs">
+				<span>Built with: </span>
+				HTML, CSS, JavaScript, KnockoutJS, JSTL, Adobe CQ5
+			</p>
+		</div>
+	</article>
+</section></portfolio>
+		<section id="technologies">
+	<h2>Technologies</h2>
+	<ul class="center-children">
+		<li class="tag">HTML</li>
+		<li class="tag">CSS</li>
+		<li class="tag">JavaScript</li>
+		<li class="tag">TypeScript</li>
+		<li class="tag">React</li>
+		<li class="tag">Angular</li>
+		<li class="tag">Sass</li>
+		<li class="tag">LESS</li>
+		<li class="tag">Node</li>
+		<li class="tag">Express</li>
+		<li class="tag">PostgreSQL</li>
+		<li class="tag">Git</li>
+		<li class="tag">PHP</li>
+		<li class="tag">Wordpress</li>
+		<li class="tag">Scala</li>
+		<li class="tag">Java</li>
+		<li class="tag">REST</li>
+		<li class="tag">Mocha</li>
+		<li class="tag">Jest</li>
+		<li class="tag">Webdriver</li>
+	</ul>
+</section>
+		<experience>
+<section id="experience" class="experience">
+	<h2 class="section-header">Experience</h2>
+	<article class="resume-item">
+		<h3 class="resume-item-company">EQUITAS Life Sciences</h3>
+		<p class="resume-item-title">Software Engineer, July 2018-June 2020</p>
+		<p>
+			Produced interactive web-based software using React, Node Express, TypeScript,
+			Postgres and other technologies. Collaborated with engineering team to
+			create and evolve e-learning solutions, a sales presentation generator,
+			and a coaching mentorship application. Trained and guided interns new to
+			software development.
+		</p>
+	</article>
+	<article class="resume-item">
+		<h3 class="resume-item-company">Meredith Content Licensing</h3>
+		<p class="resume-item-title">Lead Front End Developer, November 2014-July 2018</p>
+		<p>
+			Built and maintained embedded JavaScript application which
+			delivers high quality food-related content. Enabled streamlined
+			delivery by designing solutions that are easily configurable and
+			themeable for new clients. Assisted in developing product road map.
+			Served as tech lead for JavaScript development team using Scrum
+			methodology.
+		</p>
+	</article>
+	<article class="resume-item">
+		<h3 class="resume-item-company">MyWebGrocer</h3>
+		<p class="resume-item-title">UI Engineer, October 2013-November 2014</p>
+		<p>
+			Created customer-facing ecommerce applications for national
+			grocery store chains using HTML, OO JavaScript, Knockout.js, and
+			Sass. Develops and maintains a REST-driven single-page application
+			built with modular, testable JavaScript. Collaborates with
+			cross-functional team members to deliver web software in an Agile
+			environment.
+		</p>
+	</article>
+	<article class="resume-item">
+		<h3 class="resume-item-company">Recreational Equipment, Inc.</h3>
+		<p class="resume-item-title">Front End Web Developer, July 2012-October 2013</p>
+		<p>
+			Developed site components for REI.com in the Adobe CQ5 CMS using
+			JSP/JSTL, HTML, CSS, and OO JavaScript. Collaborated with Java
+			Developers, UX Designers, Interaction Designers, Online Editors,
+			Analysts, and Product Owners to deliver rich, authorable content
+			management tools using Agile methodology.
+		</p>
+	</article>
+	<article class="resume-item">
+		<h3 class="resume-item-company">Recreational Equipment, Inc.</h3>
+		<p class="resume-item-title">Technical Producer, July 2009-July 2012</p>
+		<p>
+			Built and maintained front end web content for REI.com. Created
+			dynamic, interactive landing experiences, sale promotions, and was
+			responsible for functionality on the REI.com homepage. Used latest
+			client-side technologies and web API to implement rich customer
+			experiences. Leveraged XML and JSON from web services. Ensured
+			accurate analytics data was captured using REI's custom
+			implementation of Omniture Site Catalyst. Executed multi-variant
+			testing using Omniture Test &amp; Target. Created engaging data-driven
+			applications for REI's Facebook fan page, as well as the co-op's
+			YouTube channel.
+		</p>
+	</article>
+	<article class="resume-item">
+		<h3 class="resume-item-company">Tire Swing, LLC.</h3>
+		<p class="resume-item-title">Co-Founder, June 2008-2018</p>
+		<p>
+			Design and implement web solutions for small businesses and
+			organizations. Produce dynamic, interactive websites using
+			HTML/CSS, JavaScript, jQuery, Flash, and PHP/MYSQL. Implement CMS
+			solutions using Wordpress and Joomla. Create graphics using
+			Photoshop and Illustrator. Design and develop company website.
+			Procure projects and develop client base through networking,
+			marketing, and word of mouth.
+		</p>
+	</article>
+</section></experience>
+		<education>
+<div class="grid">
+	<section id="education" class="education">
+		<h2 class="section-header">Education</h2>
+		<article class="school">
+			<h3>University of Washington</h3>
+			<p>Object-Oriented Programming in Java, 2012</p>
+			<p>Application Programming in Java, 2013</p>
+			<p>
+				Professional Certificate in Flash Application Development,
+				2008-2009
+			</p>
+		</article>
+		<article class="school">
+			<h3>Saint Michael's College</h3>
+			<p>B.A. in Journalism and Mass Communications, 2000-2004</p>
+		</article>
+	</section>
+	<section id="interests" class="interests">
+		<h2 class="section-header">Interests</h2>
+		<ul class="center-children">
+			<li class="tag">Hiking</li>
+			<li class="tag">Skiing</li>
+			<li class="tag">Backpacking</li>
+			<li class="tag">Basketball</li>
+			<li class="tag">Community Organizing</li>
+			<li class="tag">Mutual Aid</li>
+		</ul>
+	</section>
+</div></education>
+		<site-footer>
+<div id="footer" class="footer">
+	<section>
+		<div class="footer-container">
+			<h2>Contact Info:</h2>
+			<ul>
+				<li>
+					<a href="https://github.com/bcliff323" aria-label="Connect with Brian on github" class="footer-link">
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+	</path>
+	<path d="M9 18c-4.51 2-5-2-7-2"></path>
+</svg>
+	<span>bcliff323</span>
+</a>
+				</li>
+				<li>
+					<a href="http://www.linkedin.com/in/briancliffordlinkedin" aria-label="Connect with Brian on linked in" class="footer-link">
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+	<rect x="2" y="9" width="4" height="12"></rect>
+	<circle cx="4" cy="4" r="2"></circle>
+</svg>
+	<span>bcliffordlinkedin</span>
+</a>
+				</li>
+				<li>
+					<a href="mailto:bcliff323@gmail.com" aria-label="Send Brian an email" class="footer-link">
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<rect x="2" y="4" width="20" height="16" rx="2"></rect>
+	<path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+</svg>
+	<span>bcliff323@gmail.com</span>
+</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+</div></site-footer>
+	</div>
+</div></body>
+</html>
