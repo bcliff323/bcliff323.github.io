@@ -103,24 +103,15 @@
 	</header>
 	<nav id="navigation-menu" role="navigation" class="no-print">
 		<ul class="navigation-items">
-			<li>
-				<a class="navigation-item" href="#portfolio">Portfolio</a>
-			</li>
-			<li>
-				<a class="navigation-item" href="#technologies">Technologies</a>
-			</li>
-			<li>
-				<a class="navigation-item" href="#experience">Experience</a>
-			</li>
-			<li>
-				<a class="navigation-item" href="#education">Education</a>
-			</li>
-			<li>
-				<a class="navigation-item" href="#interests">Interests</a>
-			</li>
-			<li>
-				<a class="navigation-item" href="#footer">Contact</a>
-			</li>
+			<script webc:type="render" webc:is="template">
+				function render() {
+					return this.navigation.map(item => `
+						<li>
+							<a class="navigation-item" href="${item.link}">${item.label}</a>
+						</li>
+					`).join("");
+				}
+			</script>
 		</ul>
 	</nav>
 </div>

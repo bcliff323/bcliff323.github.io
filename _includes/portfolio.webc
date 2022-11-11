@@ -70,29 +70,24 @@
 	</div>
 	<script webc:type="render" webc:is="template">
 		function render() {
-			return this.collections.portfolio
-				.sort((a, b) => a.data.ordinal > b.data.ordinal ? 1 : -1)
-				.map(item => {
-					const { data } = item;
-					return `<article class="portfolio-item">
-							<figure>
-								<img class="portfolio-image" src="${data.imgSrc}"
-									alt="${data.alt}" loading="lazy"
-									height="500" width="500" />
-							</figure>
-							<div class="portfolio-details">
-								<h3 class="portfolio-title">${data.title}</h3>
-								<p class="portfolio-description">
-									${data.description}
-								</p>
-								${data.link ? `<a href="${data.link}">${data.linkLabel}</a>` : ''}
-								<p class="portfolio-specs">
-									<span>Built with: </span>
-									${data.tech.join(", ")}
-								</p>
-							</div>
-						</article>`;
-				}).join("");
+			return this.portfolio.map(data => `<article class="portfolio-item">
+				<figure>
+					<img class="portfolio-image" src="${data.imgSrc}"
+						alt="${data.alt}" loading="lazy"
+						height="500" width="500" />
+				</figure>
+				<div class="portfolio-details">
+					<h3 class="portfolio-title">${data.title}</h3>
+					<p class="portfolio-description">
+						${data.description}
+					</p>
+					${data.link ? `<a href="${data.link}">${data.linkLabel}</a>` : ''}
+					<p class="portfolio-specs">
+						<span>Built with: </span>
+						${data.tech.join(", ")}
+					</p>
+				</div>
+			</article>`).join("");
 		}
 	</script>
 </section>

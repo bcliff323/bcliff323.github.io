@@ -4,25 +4,12 @@
 		<back-to-top />
 	</div>
 	<ul class="center-children tags">
-		<li class="tag">HTML</li>
-		<li class="tag">CSS</li>
-		<li class="tag">JavaScript</li>
-		<li class="tag">TypeScript</li>
-		<li class="tag">React</li>
-		<li class="tag">Angular</li>
-		<li class="tag">Sass</li>
-		<li class="tag">LESS</li>
-		<li class="tag">Node</li>
-		<li class="tag">Express</li>
-		<li class="tag">PostgreSQL</li>
-		<li class="tag">Git</li>
-		<li class="tag">PHP</li>
-		<li class="tag">Wordpress</li>
-		<li class="tag">Scala</li>
-		<li class="tag">Java</li>
-		<li class="tag">REST</li>
-		<li class="tag">Mocha</li>
-		<li class="tag">Jest</li>
-		<li class="tag">Webdriver</li>
+		<script webc:type="render" webc:is="template">
+			function render() {
+				return this.technologies.map(item => `
+					<li class="tag">${item}</li>
+				`).join("");
+			}
+		</script>
 	</ul>
 </section>
