@@ -1,6 +1,7 @@
 <style>
 	.intro {
 		margin-top: 3rem;
+		font-weight: normal;
 	}
 </style>
 <p class="intro">
